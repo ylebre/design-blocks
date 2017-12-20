@@ -48,7 +48,7 @@ editor.storageConnectors.github.file = {
 	}
 };
 
-editor.loadToolbar("https://yvo.muze.nl/simply-edit/simply/plugin.simply-login.html");
+editor.editmode.loadToolbarList(["https://yvo.muze.nl/simply-edit/simply/plugin.simply-login.html"]);
 
 document.addEventListener("simply-toolbars-loaded", function() {
 	editor.storage.connect(function() {
