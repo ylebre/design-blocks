@@ -1,0 +1,469 @@
+<!doctype html>
+<html>
+	<head>
+		<title data-simply-field="meta title">Design blocks - SimplyEdit</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="/templates/template.blocks.html" as="document">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+		<link type="text/css" rel="stylesheet" href="/css/froala_blocks.css">
+		<script src="https://canary.simplyedit.io/1/muze/simply/slip.js"></script>
+		<style>
+			.selection input[type=radio] {
+				display: none;
+			}
+			.selection input[type=checkbox] {
+				display: none;
+			}
+			.selection input:checked + div:before {
+				content: '';
+				display: block;
+				width: 10px;
+				position: absolute;
+				left: 0;
+				top: 0;
+				bottom: 0;
+				background-color: #0099ff;
+				z-index: 1;
+				box-shadow: 0px 0px 8px #666;
+			}
+
+			.selection label {
+				display: block;
+				position: relative;
+				border: 1px solid #0099ff;
+				border-radius: 5px;
+				margin-bottom: 5px;
+				overflow: hidden;
+			}
+			.selection label:before {
+				content: '';
+				width: 100%;
+				height: 100%;
+				display: block;
+				position: absolute;
+				z-index: 1000;
+			}
+			.preview,
+			.category,
+			#categories {
+				overflow-y: scroll;
+				max-height: 100vh;
+				height: 100vh;
+			}
+			.selection .category {
+				display: none;
+				width: 100%;
+				xmargin-left: -100%;
+				xtransition: margin-left 0.3s ease;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				padding: 10px;
+				min-height: 100%;
+				xoverflow-y: scroll;
+				background-color: white;
+				z-index: 1;
+			}
+			.selection .category:target {
+				display: block;
+				xmargin-left: 0;
+			}
+			.selection .category:target {
+				animation: scrollin 0.3s ease;
+			}
+			@keyframes scrollin {
+				from { margin-left: -100%; }
+				to { margin-left: 0 }
+			}
+
+			.selection .categories {
+				width: 100%;
+				position: absolute;
+			}
+			.selection {
+				position: relative;
+			}
+			.selection #categories a,
+			.selection .category > a {
+				margin: 10px;
+				box-sizing: border-box;
+				display: block;
+				padding: 15px;
+				border: 1px solid #0099ff;
+				margin-bottom: 5px;
+				border-radius: 5px;
+			}
+			#preview {
+				position: absolute;
+				width: 120vw;
+				height: 100vh;
+				zoom: 0.4;
+				bottom: 20px;
+				right: 20px;
+				background-color: white;
+				border: 3px solid #999;
+				box-shadow: 0px 0px 6px #666;
+				z-index: 5;
+			}
+			#preview:before {
+				display: block;
+				content: "Website preview";
+				background-color: #666;
+				color: white;
+				font-size: 36px;
+				line-height: 56px;
+				text-align: center;
+			}
+			#preview:target:before {
+				display: none;
+			}
+			#preview a.zoom,
+			#preview a.download,
+			#preview a.save {
+				display: none;
+			}
+			#preview:target a.zoom,
+			#preview:target a.download,
+			#preview:target a.save {
+				display: block;
+			}
+
+			#preview:target {
+				zoom: 1;
+				width: 100vw;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				border: 0;
+				box-shadow: inherit;
+				z-index: 8;
+			}
+			a.back,
+			a.zoom,
+			a.download,
+			a.save {
+				width: 48px;
+				height: 48px;
+				background-color: #0099ff;
+				border-radius: 32px;
+				z-index: 9;
+				box-shadow: 0px 0px 4px #666;
+				text-align: center;
+				color: white;
+				line-height: 48px;
+				vertical-align: middle;
+				position: absolute;
+				bottom: 20px;
+				right: 20px;
+				display: block;
+			}
+			a.download,
+			a.save {
+				right: 80px;
+			}
+			a.back {
+				display: none;
+				right: auto;
+				bottom: auto;
+				top: 20px;
+				left: 20px;
+			}
+			.selection :target ~ a.back {
+				display: block;
+			}
+			#preview ~ a.zoom,
+			#preview ~ a.download,
+			#preview ~ a.save {
+				display: none;
+			}
+			#preview:target ~ a.zoom,
+			#preview:target ~ a.download,
+			#preview:target ~ a.save {
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class="selection">
+			<a class="zoom" data-simply-action="zoom" href="#preview"><i class="fa fa-expand"></i></a>
+			<div id="categories">
+				<a href="#header">Header</a>
+				<a href="#footer">Footer</a>
+			</div>
+			<div id="header" class="category">
+			</div>
+			<div id="footer" class="category">
+			</div>
+			<a class="back" href="#"><i class="fa fa-arrow-left"></i></a>
+		</div>
+		<div id="preview" class="preview">
+			<div data-simply-path="/" data-simply-field="preview.header" data-simply-content="template">
+			</div>
+			<main data-simply-list="preview.content" data-simply-sortable="true">
+			</main>
+			<div data-simply-field="preview.footer" data-simply-content="template">
+			</div>
+		</div>
+		<a class="save" href="#" data-simply-action='save'><i class="fa fa-save"></i></a>
+		<a class="zoom" href="#" data-simply-action='zoom'><i class="fa fa-compress"></i></a>
+		<script>
+			function populate() {
+				var blocksRoot = document.getElementById("design-blocks");
+				if (window.designerPopulated) {
+					return;
+				}
+				window.designerPopulated = true;
+
+				window.contentCategories = {};
+				var contentSections = document.querySelectorAll("#design-blocks > section[data-name]");
+				for (var i=0; i<contentSections.length; i++) {
+					var categoryId = contentSections[i].id.replace(/-blocks$/, "");
+					var categoryName = contentSections[i].getAttribute("data-name");
+					contentCategories[categoryId] = categoryName;
+				}
+
+				var radio = 
+					'<input type="radio" name="{{name}}" data-simply-action="{{action}}" value="{{id}}">'
+					+ '<div data-simply-path="/" data-simply-field="{{id}}-preview" data-simply-content="template" data-simply-default-value="{{id}}">'
+					+ '	<template data-simply-template="{{id}}" rel="{{id}}"></template>'
+					+ '</div>'
+				;
+
+				var checkbox = 
+					'<input type="checkbox" data-simply-action="content" value="{{id}}">'
+					+ '<div data-simply-path="/{{id}}" data-simply-field="{{id}}-preview" data-simply-content="template" data-simply-default-value="{{id}}">'
+					+ '	<template data-simply-template="{{id}}" rel="{{id}}"></template>'
+					+ '</div>'
+				;
+
+				// headers
+				var headerTemplates = blocksRoot.querySelectorAll("template[id^=header-]");
+				for (var i=0; i<headerTemplates.length; i++) {
+					var label = document.createElement("label");
+					label.innerHTML = radio
+						.replace(/{{id}}/g, headerTemplates[i].id)
+						.replace(/{{name}}/g, "header")
+						.replace(/{{action}}/g, "header");
+					document.querySelector("#header").appendChild(label);
+					document.querySelector("[data-simply-field='preview.header']").appendChild(label.querySelector("template").cloneNode());
+				}
+
+				// content
+				var templatesDiv = document.createElement("div");
+				templatesDiv.setAttribute("data-simply-field", "template");
+				templatesDiv.setAttribute("data-simply-content", "template");
+				
+				for (var category in contentCategories) {
+					var link = document.createElement("A");
+					link.setAttribute("href", "#" + category);
+					link.innerHTML = contentCategories[category];
+					document.getElementById("categories").insertBefore(link, document.querySelector("#categories a:last-child"));
+					var categoryDiv = document.createElement("DIV");
+					categoryDiv.setAttribute("id", category);
+					categoryDiv.setAttribute("class", "category");
+					document.getElementById("footer").parentNode.insertBefore(categoryDiv, document.getElementById("footer"));
+					var categoryTemplates = blocksRoot.querySelectorAll("template[id^=" + category + "-]");
+					for (var i=0; i<categoryTemplates.length; i++) {
+						var label = document.createElement("label");
+						label.innerHTML = checkbox
+							.replace(/{{id}}/g, categoryTemplates[i].id);
+
+						document.getElementById(category).appendChild(label);
+						templatesDiv.appendChild(label.querySelector("template").cloneNode());
+					}
+				}
+
+				contentTemplates = document.createElement("template");
+				contentTemplates.innerHTML = templatesDiv.outerHTML;
+				document.querySelector("[data-simply-list='preview.content']").appendChild(contentTemplates);
+
+				// footer
+				var footerTemplates = blocksRoot.querySelectorAll("template[id^=footer-]");
+				for (var i=0; i<footerTemplates.length; i++) {
+					var label = document.createElement("label");
+					label.innerHTML = radio
+						.replace(/{{id}}/g, footerTemplates[i].id)
+						.replace(/{{name}}/g, "footer")
+						.replace(/{{action}}/g, "footer");
+					document.querySelector("#footer").appendChild(label);
+					document.querySelector("[data-simply-field='preview.footer']").appendChild(label.querySelector("template").cloneNode());
+				}
+			}
+			function generate() {
+				var headerTemplate = "\t\t\t" + '<template data-simply-template="header" rel="' + editor.field.get(document.querySelector("[data-simply-field='preview.header']")) + '"></template>';
+				var contentTemplate = '';
+				var categoryCount = {};
+				for (var i=0; i<editor.pageData.preview.content.length; i++) {
+					var template = editor.pageData.preview.content[i].template;
+					var category = template.replace(/-\d+$/, '');
+					if (typeof categoryCount[category] === "undefined") {
+						categoryCount[category] = 1;
+					}
+					var displayName = contentCategories[category] ? contentCategories[category] : category;
+					if (categoryCount[category] > 1) {
+						displayName += " (" + categoryCount[category] + ")";
+					}
+					contentTemplate += "\t\t\t" + '<template data-simply-template="' + displayName + '" rel="' + template + '"></template>' + "\n";
+					categoryCount[category]++;
+				}
+				var footerTemplate = "\t\t\t" + '<template data-simply-template="footer" rel="' + editor.field.get(document.querySelector("[data-simply-field='preview.footer']")) + '"></template>';
+				var data = '' +
+'<!doctype html>' + "\n" +
+'<html>' + "\n" +
+'	<head>' + "\n" +
+'		<title data-simply-field="meta title">Design blocks - SimplyEdit</title>' + "\n" +
+'		<meta name="viewport" content="width=device-width, initial-scale=1.0">' + "\n" +
+'		<link rel="preload" href="/templates/template.blocks.html" as="document">' + "\n" +
+'		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">' + "\n" +
+'		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">' + "\n" +
+'		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">' + "\n" +
+'		<link type="text/css" rel="stylesheet" href="/css/froala_blocks.css">' + "\n" +
+'	</head>' + "\n" +
+'	<body>' + "\n" +
+'		<div data-simply-path="/" data-simply-field="headerTemplate" data-simply-content="template" data-simply-default-value="header">' + "\n" +
+headerTemplate + "\n" +
+'		</div>' + "\n" +
+'		<main data-simply-list="mainContent" data-simply-sortable="true">' + "\n" +
+contentTemplate + "\n" +
+'		</main>' + "\n" +
+'		<div data-simply-path="/" data-simply-field="footerTemplate" data-simply-content="template" data-simply-default-value="footer">' + "\n" +
+footerTemplate + "\n" +
+'		</div>' + "\n" +
+'		<scr' + 'ipt>' + "\n" + 
+'			document.addEventListener("simply-storage-init", function() {' + "\n" +
+'				var savedLoad = editor.data.load;' + "\n" +
+'				editor.data.load = function() {' + "\n" +
+'					return true;' + "\n" +
+'				};' + "\n" +
+'				var editorLoad = function() {' + "\n" +
+'					editor.data.load = savedLoad;' + "\n" +
+'					editor.data.load();' + "\n" +
+'					document.removeEventListener("simply-toolbars-loaded", editorLoad);' + "\n" +
+'				};' + "\n" +
+'				document.addEventListener("simply-toolbars-loaded", editorLoad);' + "\n" +
+'				editor.editmode.loadToolbarList(["/templates/template.blocks.html"]);' + "\n" +
+'			});' + "\n" +
+'		</scr' + 'ipt>' + "\n" +
+'		<script ' + "\n" +
+'			src="https://canary.simplyedit.io/1/simply-edit.js"' + "\n" +
+'			data-api-key="github"' + "\n" +
+'			data-simply-storage="github"' + "\n" + 
+'			data-simply-endpoint="./"' + "\n" +
+'			data-simply-repo-branch="master"' + "\n" +
+'			data-simply-images="/imgs/"' + "\n" +
+'		></scr' + 'ipt>' + "\n" +
+'		<script src="/github-login.js"></script>' + "\n" +
+'		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></scr' + 'ipt>' + "\n" +
+'		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></scr' + 'ipt>' + "\n" +
+'		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></scr' + 'ipt>' + "\n" +
+'	</body>' + "\n" +
+'</html>';
+				return data;
+			}
+		</script>
+		<script>
+			// 6: drag and drop items to reorder them
+			// --------------------------------------
+			var previewList = document.querySelector('#preview main');
+			previewList.addEventListener('slip:reorder', function(e){
+				e.target.parentNode.insertBefore(e.target, e.detail.insertBefore);
+			});
+			new Slip(previewList);
+
+			document.addEventListener("click", function(evt) {
+				var target = evt.target;
+				
+				var action = target.getAttribute("data-simply-action");
+				if (!action && target.parentNode) {
+					target = target.parentNode;
+					action = target.getAttribute("data-simply-action");
+				}
+				if (!action) {
+					return;
+				}
+				switch (action) {
+					case "zoom" :
+						document.location.hash = (document.location.hash == "#preview" ? "#" : "#preview");
+						evt.preventDefault();
+					break;
+					case "header" :
+						if (target.checked) {
+							editor.currentData["/"].preview.header = target.getAttribute("value");
+						} else {
+							editor.pageData.preview.header = "";
+						}
+					break;
+					case "content" :
+						if (target.checked) {
+							editor.pageData.preview.content.push({"template" : target.getAttribute("value")})
+						} else {
+							for (var i=0; i<editor.pageData.preview.content.length; i++) {
+								if (editor.pageData.preview.content[i].template == target.getAttribute("value")) {
+									editor.pageData.preview.content.splice(i,1);
+								}
+							}
+						}
+					break;
+					case "footer" :
+						editor.pageData.preview.footer = target.getAttribute("value");
+					break;
+					case "download" :
+						evt.preventDefault();
+						var data = generate();
+						var pom = document.createElement('a');
+						pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(data));
+						pom.setAttribute('download', "index.html");
+
+						if (document.createEvent) {
+							var event = document.createEvent('MouseEvents');
+							event.initEvent('click', true, true);
+							pom.dispatchEvent(event);
+						} else {
+							pom.click();
+						}
+					break;
+					case "save" :
+						evt.preventDefault();
+						var data = generate();
+						editor.storage.file.save("/index.html", data, function() {
+							alert("Saved!");
+						});
+					break;
+				}
+			});
+		</script>
+		<script>
+			document.addEventListener("simply-storage-init", function() {
+				var savedLoad = editor.data.load;
+				editor.data.load = function() {
+					return true;
+				};
+				var editorLoad = function() {
+					populate();
+					editor.data.load = savedLoad;
+					editor.data.load();
+					document.removeEventListener("simply-toolbars-loaded", editorLoad);
+				};
+				document.addEventListener("simply-toolbars-loaded", editorLoad);
+				editor.editmode.loadToolbarList(["/templates/template.blocks.html"]);
+			});
+		</script>
+		<script 
+			src="https://canary.simplyedit.io/1/simply-edit.js"
+			data-api-key="github"
+			data-simply-storage="github"
+			data-simply-endpoint="./"
+			data-simply-repo-branch="master"
+			data-simply-images="/imgs/"			
+		></script>
+		<script src="/github-login.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	</body>
+</html>
+

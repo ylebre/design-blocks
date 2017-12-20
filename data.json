@@ -1,0 +1,116 @@
+{
+	"/": {
+		"meta title": "SimplyEdit, designed for the decentralized web.",
+		"header": {
+			"link": {
+				"href": "#",
+				"class": "navbar-brand"
+			},
+			"image": {
+				"src": "imgs/Logo_SimplyEdit.svg",
+				"alt": "image"
+			},
+			"action": {
+				"href": "#simply-edit",
+				"class": "btn btn-empty ml-md-3",
+				"innerHTML": "Edit this site"
+			},
+			"nav": [],
+			"subnav": []
+		},
+		"footer": {
+			"links": {
+				"0": {
+					"link": {
+						"href": "https://simplyedit.io/",
+						"class": "nav-link active",
+						"innerHTML": ""
+					}
+				},
+				"1": {
+					"link": {
+						"href": "https://simplyedit.io/",
+						"class": "nav-link",
+						"innerHTML": ""
+					}
+				},
+				"2": {
+					"link": {
+						"href": "https://simplyedit.io/",
+						"class": "nav-link",
+						"innerHTML": "SimplyEdit"
+					}
+				},
+				"3": {
+					"link": {
+						"href": "#",
+						"class": "nav-link",
+						"innerHTML": ""
+					}
+				},
+				"4": {
+					"link": {
+						"href": "#",
+						"class": "nav-link",
+						"innerHTML": ""
+					}
+				}
+			},
+			"copyright": "\u00a9 2015-2017 SimplyEdit"
+		},
+		"mainContent": [
+			{
+				"action": {
+					"title": "SimplyEdit - designed for the decentralized web.",
+					"description": "The time is here to decentralize the web. SimplyEdit was built for exactly this purpose.",
+					"link": {
+						"href": "#simply-edit",
+						"class": "btn",
+						"innerHTML": "Edit this site"
+					},
+					"actions": {
+						"0": {
+							"image": {
+								"src": "/imgs/img_round.svg",
+								"class": "fdb-icon",
+								"alt": "image"
+							},
+							"title": "Change texts, add content",
+							"description": "Take control of this site, change the texts and images as you see fit. Simply Edit lets you edit all the things."
+						},
+						"1": {
+							"image": {
+								"src": "/imgs/img_round.svg",
+								"class": "fdb-icon",
+								"alt": "image"
+							},
+							"title": "Design blocks",
+							"description": "Pick and choose from a set of design blocks to set the blocks that are available to use in your site."
+						}
+					}
+				},
+				"data-simply-template": "Call to action",
+				"aciton": {
+					"actions": {
+						"0": {
+							"link": {
+								"href": "#simply-edit",
+								"class": "btn",
+								"innerHTML": "Edit this site"
+							}
+						},
+						"1": {
+							"link": {
+								"href": "/design.html",
+								"class": "btn",
+								"innerHTML": "Change the design"
+							}
+						}
+					}
+				}
+			}
+		],
+		"headerTemplate": "header",
+		"footerTemplate": "footer"
+	}
+}
