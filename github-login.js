@@ -44,7 +44,7 @@ editor.storageConnectors.github.file = {
 				error: true
 			});
 		};
-		this.repo.write(this.repoBranch, path, data, "Simply edit changes on " + new Date().toUTCString(), saveCallback);
+		editor.storage.repo.write(this.repoBranch, path, data, "Simply edit changes on " + new Date().toUTCString(), saveCallback);
 	}
 };
 

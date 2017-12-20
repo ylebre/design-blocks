@@ -431,8 +431,10 @@ footerTemplate + "\n" +
 					case "save" :
 						evt.preventDefault();
 						var data = generate();
-						editor.storage.file.save("/index.html", data, function() {
-							alert("Saved!");
+						editor.storage.connect(function() {
+							editor.storage.file.save("/index.html", data, function() {
+								alert("Saved!");
+							});
 						});
 					break;
 				}
