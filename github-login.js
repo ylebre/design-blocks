@@ -27,6 +27,27 @@ editor.storageConnectors.github.connect = function(callback) {
 	document.querySelector("#simply-login input[value=Login]").addEventListener("click", handleLogin);
 	document.querySelector("#simply-login input[value=Cancel]").addEventListener("click", handleLogin);
 };
+editor.storageConnectors.github.file = {
+	save: function(path, data, callback) {
+		var saveCallback = function(err) {
+			if (err === null) {
+				return callback();
+			}
+			if (err.error == 401) {
+				return callback({
+					message: "Authorization failed.",
+					error: true
+				});
+			}
+			return callback({
+				message: "SAVE FAILED: Could not store.",
+				error: true
+			});
+		};
+		this.repo.write(this.repoBranch, path, data, "Simply edit changes on " + new Date().toUTCString(), saveCallback);
+	}
+};
+
 editor.loadToolbar("https://canary.simplyedit.io/1/github/simply/plugin.simply-login.html");
 
 document.addEventListener("simply-toolbars-loaded", function() {
