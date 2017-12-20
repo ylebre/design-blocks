@@ -44,11 +44,11 @@ editor.storageConnectors.github.file = {
 				error: true
 			});
 		};
-		editor.storage.repo.write(this.repoBranch, path, data, "Simply edit changes on " + new Date().toUTCString(), saveCallback);
+		editor.storage.repo.write(editor.storage.repoBranch, path, data, "Simply edit changes on " + new Date().toUTCString(), saveCallback);
 	}
 };
 
-editor.loadToolbar("https://canary.simplyedit.io/1/github/simply/plugin.simply-login.html");
+editor.loadToolbar("https://yvo.muze.nl/simply-edit/simply/plugin.simply-login.html");
 
 document.addEventListener("simply-toolbars-loaded", function() {
 	editor.storage.connect(function() {
