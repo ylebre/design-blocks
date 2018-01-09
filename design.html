@@ -442,12 +442,12 @@ footerTemplate + "\n" +
 		</script>
 		<script>
 			document.addEventListener("simply-storage-init", function() {
-				populate();
 				var savedLoad = editor.data.load;
 				editor.data.load = function() {
 					return true;
 				};
 				var editorLoad = function() {
+					populate();
 					editor.data.load = savedLoad;
 					editor.data.load();
 					document.removeEventListener("simply-toolbars-loaded", editorLoad);
