@@ -432,7 +432,7 @@ footerTemplate + "\n" +
 						evt.preventDefault();
 						var data = generate();
 						editor.storage.connect(function() {
-							editor.storage.file.save("/index.html", data, function() {
+							editor.storage.file.save("index.html", data, function() {
 								alert("Saved!");
 							});
 						});
