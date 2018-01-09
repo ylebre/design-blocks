@@ -47,15 +47,16 @@ editor.storageConnectors.github.file = {
 		editor.storage.repo.write(editor.storage.repoBranch, path, data, "Simply edit changes on " + new Date().toUTCString(), saveCallback);
 	}
 };
-editor.loadToolbar("https://yvo.muze.nl/simply-edit/simply/plugin.simply-login.html");
 
-document.addEventListener("simply-toolbars-loaded", function() {
-	editor.storage.connect(function() {
-		editor.storage.repo.read(editor.storage.repoBranch, "data.json", function(err, data) {
-			if (data) {
-				editor.currentData = JSON.parse(data);
-				editor.data.apply(editor.currentData, document);
-			}
+editor.loadToolbar("https://yvo.muze.nl/simply-edit/simply/plugin.simply-login.html", function() {
+	document.addEventListener("simply-toolbars-loaded", function() {
+		editor.storage.connect(function() {
+			editor.storage.repo.read(editor.storage.repoBranch, "data.json", function(err, data) {
+				if (data) {
+					editor.currentData = JSON.parse(data);
+					editor.data.apply(editor.currentData, document);
+				}
+			});
 		});
 	});
 });

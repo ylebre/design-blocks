@@ -457,13 +457,14 @@ footerTemplate + "\n" +
 					return true;
 				};
 				var editorLoad = function() {
-					populate();
 					editor.data.load = savedLoad;
 					editor.data.load();
 					document.removeEventListener("simply-toolbars-loaded", editorLoad);
 				};
 				document.addEventListener("simply-toolbars-loaded", editorLoad);
-				editor.loadToolbar("/templates/template.blocks.html");
+				editor.loadToolbar("/templates/template.blocks.html", function() {
+					populate();
+				});
 			});
 		</script>
 		<script src="/github-login.js"></script>
