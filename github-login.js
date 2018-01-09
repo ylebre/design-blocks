@@ -49,7 +49,7 @@ editor.storageConnectors.github.file = {
 };
 
 document.addEventListener("simply-toolbars-loaded", function() {
-	if (body.getAttribute("data-simply-edit")) {
+	if (document.body.getAttribute("data-simply-edit")) {
 		editor.storage.connect(function() {
 			editor.storage.repo.read(editor.storage.repoBranch, "data.json", function(err, data) {
 				if (data) {
