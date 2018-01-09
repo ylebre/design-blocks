@@ -58,3 +58,4 @@ document.addEventListener("simply-toolbars-loaded", function() {
 		});
 	});
 });
+editor.editmode.loadToolbarList(["https://yvo.muze.nl/simply-edit/simply/plugin.simply-login.html"]);
