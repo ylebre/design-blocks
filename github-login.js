@@ -27,6 +27,7 @@ editor.storageConnectors.github.connect = function(callback) {
 	document.querySelector("#simply-login input[value=Login]").addEventListener("click", handleLogin);
 	document.querySelector("#simply-login input[value=Cancel]").addEventListener("click", handleLogin);
 };
+editor.loadToolbar("//yvo.muze.nl/simply-edit/simply/plugin.simply-login.html");
 
 document.addEventListener("simply-toolbars-loaded", function() {
 	if (document.body.getAttribute("data-simply-edit")) {
@@ -40,4 +41,3 @@ document.addEventListener("simply-toolbars-loaded", function() {
 		});
 	}
 });
-editor.editmode.loadToolbarList(["https://yvo.muze.nl/simply-edit/simply/plugin.simply-login.html"]);
