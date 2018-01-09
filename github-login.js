@@ -27,26 +27,6 @@ editor.storageConnectors.github.connect = function(callback) {
 	document.querySelector("#simply-login input[value=Login]").addEventListener("click", handleLogin);
 	document.querySelector("#simply-login input[value=Cancel]").addEventListener("click", handleLogin);
 };
-editor.storageConnectors.github.file = {
-	save: function(path, data, callback) {
-		var saveCallback = function(err) {
-			if (err === null) {
-				return callback();
-			}
-			if (err.error == 401) {
-				return callback({
-					message: "Authorization failed.",
-					error: true
-				});
-			}
-			return callback({
-				message: "SAVE FAILED: Could not store.",
-				error: true
-			});
-		};
-		editor.storage.repo.write(editor.storage.repoBranch, path, data, "Simply edit changes on " + new Date().toUTCString(), saveCallback);
-	}
-};
 
 document.addEventListener("simply-toolbars-loaded", function() {
 	if (document.body.getAttribute("data-simply-edit")) {
