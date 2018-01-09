@@ -453,14 +453,14 @@ footerTemplate + "\n" +
 					document.removeEventListener("simply-toolbars-loaded", editorLoad);
 				};
 				document.addEventListener("simply-toolbars-loaded", editorLoad);
-				editor.editmode.loadToolbarList(["/templates/template.blocks.html"]);
+				editor.editmode.loadToolbar("/templates/template.blocks.html");
 			});
 		</script>
 		<script 
 			src="https://yvo.muze.nl/simply-edit/js/simply-edit.js"
 			data-api-key="github"
 			data-simply-storage="github"
-			data-simply-endpoint="./"
+			data-simply-endpoint="https://github.com/ylebre/"
 			data-simply-repo-branch="master"
 			data-simply-repo-user="ylebre"
 			data-simply-repo-name="design-blocks"
