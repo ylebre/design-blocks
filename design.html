@@ -452,6 +452,7 @@ footerTemplate + "\n" +
 		></script>
 		<script>
 			document.addEventListener("simply-storage-init", function() {
+				populate();
 				var savedLoad = editor.data.load;
 				editor.data.load = function() {
 					return true;
@@ -462,9 +463,7 @@ footerTemplate + "\n" +
 					document.removeEventListener("simply-toolbars-loaded", editorLoad);
 				};
 				document.addEventListener("simply-toolbars-loaded", editorLoad);
-				editor.loadToolbar("/templates/template.blocks.html", function() {
-					populate();
-				});
+				editor.editmode.loadToolbarList(["/templates/template.blocks.html"]);
 			});
 		</script>
 		<script src="/github-login.js"></script>

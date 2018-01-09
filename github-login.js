@@ -48,15 +48,14 @@ editor.storageConnectors.github.file = {
 	}
 };
 
-editor.loadToolbar("https://yvo.muze.nl/simply-edit/simply/plugin.simply-login.html", function() {
-	document.addEventListener("simply-toolbars-loaded", function() {
-		editor.storage.connect(function() {
-			editor.storage.repo.read(editor.storage.repoBranch, "data.json", function(err, data) {
-				if (data) {
-					editor.currentData = JSON.parse(data);
-					editor.data.apply(editor.currentData, document);
-				}
-			});
+document.addEventListener("simply-toolbars-loaded", function() {
+	editor.storage.connect(function() {
+		editor.storage.repo.read(editor.storage.repoBranch, "data.json", function(err, data) {
+			if (data) {
+				editor.currentData = JSON.parse(data);
+				editor.data.apply(editor.currentData, document);
+			}
 		});
 	});
 });
+editor.editmode.loadToolbarList(["https://yvo.muze.nl/simply-edit/simply/plugin.simply-login.html"]);
