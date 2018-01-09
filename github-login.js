@@ -28,7 +28,7 @@ editor.storageConnectors.github.connect = function(callback) {
 	document.querySelector("#simply-login input[value=Cancel]").addEventListener("click", handleLogin);
 };
 editor.loadToolbar("//yvo.muze.nl/simply-edit/simply/plugin.simply-login.html");
-
+editor.loadStyleSheet("//yvo.muze.nl/simply-edit/simply/css/dialog.css");
 document.addEventListener("simply-toolbars-loaded", function() {
 	if (document.body.getAttribute("data-simply-edit")) {
 		editor.storage.connect(function() {
