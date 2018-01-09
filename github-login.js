@@ -47,7 +47,7 @@ editor.storageConnectors.github.file = {
 		editor.storage.repo.write(editor.storage.repoBranch, path, data, "Simply edit changes on " + new Date().toUTCString(), saveCallback);
 	}
 };
-editor.editmode.loadToolbarList(["https://yvo.muze.nl/simply-edit/simply/plugin.simply-login.html"]);
+editor.loadToolbar("https://yvo.muze.nl/simply-edit/simply/plugin.simply-login.html");
 
 document.addEventListener("simply-toolbars-loaded", function() {
 	editor.storage.connect(function() {
