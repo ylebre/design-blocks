@@ -453,6 +453,7 @@ footerTemplate + "\n" +
 					document.removeEventListener("simply-toolbars-loaded", editorLoad);
 				};
 				document.addEventListener("simply-toolbars-loaded", editorLoad);
+				editor.loadStyleSheet("//yvo.muze.nl/simply-edit/simply/css/dialog.css");
 				editor.editmode.loadToolbarList(["https://yvo.muze.nl/simply-edit/simply/plugin.simply-login.html", "/templates/template.blocks.html"]);
 			});
 		</script>
