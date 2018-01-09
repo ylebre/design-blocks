@@ -205,6 +205,6 @@
 			}
 		],
 		"headerTemplate": "header",
-		"footerTemplate": "footer",
+		"footerTemplate": "footer"
 	}
 }
