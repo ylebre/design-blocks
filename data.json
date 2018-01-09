@@ -4,16 +4,16 @@
 		"header": {
 			"link": {
 				"href": "#",
-				"class": "navbar-brand"
+				"class": "ml-auto mr-auto"
 			},
 			"image": {
-				"src": "imgs/Logo_SimplyEdit.svg",
+				"src": "/imgs/Logo_SimplyEdit.svg",
 				"alt": "image"
 			},
 			"action": {
-				"href": "#simply-edit",
-				"class": "btn btn-empty ml-md-3",
-				"innerHTML": "Edit this site"
+				"href": "#",
+				"class": "btn ml-md-3",
+				"innerHTML": "Register"
 			},
 			"nav": [],
 			"subnav": []
@@ -22,41 +22,135 @@
 			"links": {
 				"0": {
 					"link": {
-						"href": "https://simplyedit.io/",
-						"class": "nav-link active",
-						"innerHTML": ""
+						"href": "#",
+						"class": "nav-link",
+						"innerHTML": "Privacy"
+					},
+					"image": {
+						"src": "/imgs/Logo_SimplyEdit.svg",
+						"alt": "image"
 					}
 				},
 				"1": {
 					"link": {
-						"href": "https://simplyedit.io/",
+						"href": "#",
 						"class": "nav-link",
-						"innerHTML": ""
+						"innerHTML": "Terms"
 					}
 				},
 				"2": {
 					"link": {
-						"href": "https://simplyedit.io/",
+						"href": "#",
 						"class": "nav-link",
-						"innerHTML": "SimplyEdit"
+						"innerHTML": "About"
 					}
 				},
 				"3": {
 					"link": {
 						"href": "#",
 						"class": "nav-link",
-						"innerHTML": ""
+						"innerHTML": "About"
 					}
 				},
 				"4": {
 					"link": {
 						"href": "#",
 						"class": "nav-link",
-						"innerHTML": ""
+						"innerHTML": "About"
 					}
 				}
 			},
-			"copyright": "\u00a9 2015-2017 SimplyEdit"
+			"copyright": "\u00a9 2015-2017 SimplyEdit",
+			"image": {
+				"src": "/imgs/Logo_SimplyEdit.svg",
+				"alt": "image"
+			},
+			"social": "\n                <a href=\"#\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>&nbsp;&nbsp;\n                <a href=\"#\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>&nbsp;&nbsp;\n                <a href=\"#\"><i class=\"fa fa-instagram\" aria-hidden=\"true\"></i></a>&nbsp;&nbsp;\n                <a href=\"#\"><i class=\"fa fa-pinterest\" aria-hidden=\"true\"></i></a>&nbsp;&nbsp;\n                <a href=\"#\"><i class=\"fa fa-google\" aria-hidden=\"true\"></i></a>\n              ",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Contact Us"
+			},
+			"groups": {
+				"0": {
+					"title": "Group 1",
+					"links": {
+						"0": {
+							"link": {
+								"href": "#",
+								"class": "nav-link active",
+								"innerHTML": "Home"
+							}
+						},
+						"1": {
+							"link": {
+								"href": "#",
+								"class": "nav-link",
+								"innerHTML": "Features"
+							}
+						},
+						"2": {
+							"link": {
+								"href": "#",
+								"class": "nav-link",
+								"innerHTML": "Pricing"
+							}
+						},
+						"3": {
+							"link": {
+								"href": "#",
+								"class": "nav-link",
+								"innerHTML": "Team"
+							}
+						},
+						"4": {
+							"link": {
+								"href": "#",
+								"class": "nav-link",
+								"innerHTML": "Contact Us"
+							}
+						}
+					}
+				},
+				"1": {
+					"title": "Group 2",
+					"links": {
+						"0": {
+							"link": {
+								"href": "#",
+								"class": "nav-link active",
+								"innerHTML": "Privacy Policy"
+							}
+						},
+						"1": {
+							"link": {
+								"href": "#",
+								"class": "nav-link",
+								"innerHTML": "Terms"
+							}
+						},
+						"2": {
+							"link": {
+								"href": "#",
+								"class": "nav-link",
+								"innerHTML": "FAQ"
+							}
+						},
+						"3": {
+							"link": {
+								"href": "#",
+								"class": "nav-link",
+								"innerHTML": "Support"
+							}
+						}
+					}
+				}
+			},
+			"title": "About Us",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+			"subtitle": "Follow Us",
+			"address": "\n                <h3><strong>Country A</strong></h3>\n                <p>Street Address 52<br>Contact Name</p>\n                <p>+44 827 312 5002</p>\n                <p><a href=\"#\">countrya@amazing.com</a></p>\n              ",
+			"subaddress": "\n                <h3><strong>Country B</strong></h3>\n                <p>Street Address 100<br>Contact Name</p>\n                <p>+13 827 312 5002</p>\n                <p><a href=\"#\">countryb@amazing.com</a></p>\n              "
 		},
 		"mainContent": [
 			{
@@ -111,6 +205,4212 @@
 			}
 		],
 		"headerTemplate": "header",
-		"footerTemplate": "footer"
+		"footerTemplate": "footer",
+		"header-1-preview": "header-1",
+		"header-2-preview": "header-2",
+		"header-3-preview": "header-3",
+		"header-4-preview": "header-4",
+		"header-5-preview": "header-5",
+		"header-6-preview": "header-6",
+		"header-7-preview": "header-7",
+		"header-8-preview": "header-8",
+		"header-9-preview": "header-9",
+		"header-10-preview": "header-10",
+		"header-11-preview": "header-11",
+		"header-12-preview": "header-12",
+		"header-13-preview": "header-13",
+		"header-14-preview": "header-14",
+		"header-15-preview": "header-15",
+		"header-16-preview": "header-16",
+		"header-17-preview": "header-17",
+		"header-18-preview": "header-18",
+		"header-19-preview": "header-19",
+		"header-20-preview": "header-20",
+		"footer-1-preview": "footer-1",
+		"footer-2-preview": "footer-2",
+		"footer-3-preview": "footer-3",
+		"footer-4-preview": "footer-4",
+		"footer-5-preview": "footer-5",
+		"footer-6-preview": "footer-6",
+		"footer-7-preview": "footer-7",
+		"footer-8-preview": "footer-8",
+		"footer-9-preview": "footer-9",
+		"footer-10-preview": "footer-10",
+		"footer-11-preview": "footer-11",
+		"footer-12-preview": "footer-12",
+		"preview": {
+			"header": "header-2"
+		}
+	},
+	"/design.html": {
+		"meta title": "Design blocks - SimplyEdit",
+		"preview": {
+			"footer": "footer-6",
+			"content": [
+				{
+					"template": "call-to-action-1"
+				}
+			]
+		},
+		"footer": {
+			"links": {
+				"0": {
+					"link": {
+						"href": "#",
+						"class": "nav-link active",
+						"innerHTML": "Home"
+					}
+				},
+				"1": {
+					"link": {
+						"href": "#",
+						"class": "nav-link",
+						"innerHTML": "Features"
+					}
+				},
+				"2": {
+					"link": {
+						"href": "#",
+						"class": "nav-link",
+						"innerHTML": "Privacy Policy"
+					}
+				},
+				"3": {
+					"link": {
+						"href": "#",
+						"class": "nav-link",
+						"innerHTML": "Terms"
+					}
+				},
+				"4": {
+					"link": {
+						"href": "#",
+						"class": "nav-link",
+						"innerHTML": "About"
+					}
+				}
+			},
+			"copyright": "\u00a9 2013-2017 SimplyEdit"
+		}
+	},
+	"/call-to-action-1": {
+		"action": {
+			"description": "\n                  \"Separated they live in Bookmarksgrove right at the coast of the Semantics, far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.\"\n                ",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Download"
+			}
+		},
+		"call-to-action-1-preview": "call-to-action-1"
+	},
+	"/call-to-action-2": {
+		"action": {
+			"title": "Call to Action",
+			"description": "\n                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts\n                ",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Download"
+			}
+		},
+		"call-to-action-2-preview": "call-to-action-2"
+	},
+	"/call-to-action-3": {
+		"action": {
+			"description": "Right at the coast of the Semantics, a large language ocean. A small river named Duden.",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Download"
+			}
+		},
+		"call-to-action-3-preview": "call-to-action-3"
+	},
+	"/call-to-action-4": {
+		"action": {
+			"title": "Call to Action",
+			"description": "\n                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts\n                ",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Download"
+			},
+			"subtitle": "Fortune 100 companies are using our products",
+			"subdescription": "\n                <img alt=\"image\" height=\"30\" class=\"ml-3 mr-3 mb-2 mt-2\" src=\"/imgs/customers/adobe.svg\">\n                <img alt=\"image\" height=\"30\" class=\"ml-3 mr-3 mb-2 mt-2\" src=\"/imgs/customers/discovery.svg\">\n                <img alt=\"image\" height=\"30\" class=\"ml-3 mr-3 mb-2 mt-2 \" src=\"/imgs/customers/ebay.svg\">\n                <img alt=\"image\" height=\"30\" class=\"ml-3 mr-3 mb-2 mt-2\" src=\"/imgs/customers/samsung.svg\">\n                <img alt=\"image\" height=\"30\" class=\"ml-3 mr-3 mb-2 mt-2\" src=\"/imgs/customers/orange.svg\">\n                <img alt=\"image\" height=\"30\" class=\"ml-3 mr-3 mb-2 mt-2\" src=\"/imgs/customers/salesforce.svg\">\n              "
+		},
+		"call-to-action-4-preview": "call-to-action-4"
+	},
+	"/call-to-action-5": {
+		"action": {
+			"title": "Far far away, behind the word mountains, far from",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Download"
+			}
+		},
+		"call-to-action-5-preview": "call-to-action-5"
+	},
+	"/call-to-action-6": {
+		"action": {
+			"title": "\n                  Follow us and ask more on:\n                ",
+			"description": "\n                  <a href=\"#\"><i class=\"fa fa-facebook\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-twitter\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-instagram\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-google\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-pinterest\"></i></a>\n                "
+		},
+		"call-to-action-6-preview": "call-to-action-6"
+	},
+	"/call-to-action-7": {
+		"action": {
+			"title": "Call to action",
+			"actions": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "First Action",
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Second Action",
+					"description": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+				}
+			}
+		},
+		"aciton": {
+			"actions": {
+				"0": {
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Button"
+					}
+				},
+				"1": {
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Button"
+					}
+				}
+			}
+		},
+		"call-to-action-7-preview": "call-to-action-7"
+	},
+	"/call-to-action-8": {
+		"action": {
+			"title": "Call to Action",
+			"description": "\n                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts\n                  ",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Download"
+			}
+		},
+		"call-to-action-8-preview": "call-to-action-8"
+	},
+	"/call-to-action-9": {
+		"action": {
+			"title": "Use Design Blocks for free in your project",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Download"
+			}
+		},
+		"call-to-action-9-preview": "call-to-action-9"
+	},
+	"/call-to-action-10": {
+		"action": {
+			"title": "Call to Action",
+			"description": "\n                    When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove\n                  ",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Download"
+			}
+		},
+		"call-to-action-10-preview": "call-to-action-10"
+	},
+	"/call-to-action-11": {
+		"action": {
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Download"
+			},
+			"title": "Use Design Blocks for free in your project"
+		},
+		"call-to-action-11-preview": "call-to-action-11"
+	},
+	"/call-to-action-12": {
+		"action": {
+			"title": "Call to Action",
+			"description": "\n                  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.\n                ",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Download"
+			}
+		},
+		"call-to-action-12-preview": "call-to-action-12"
+	},
+	"/call-to-action-13": {
+		"action": {
+			"title": "Design Blocks",
+			"description": "\n                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.\n                ",
+			"actions": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_square_2.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Bootstrap",
+					"description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.",
+					"link": {
+						"href": "#",
+						"class": "btn btn-empty",
+						"innerHTML": "Take a Tour"
+					},
+					"sublink": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Start Now"
+					},
+					"subdescription": "<em>Some foo text</em>"
+				}
+			}
+		},
+		"call-to-action-13-preview": "call-to-action-13"
+	},
+	"/call-to-action-14": {
+		"action": {
+			"title": "Design Blocks",
+			"description": "\n                  Far far away, behind the word mountains, far from.\n                ",
+			"actions": {
+				"0": {
+					"title": "Call to action",
+					"description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.",
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Take a Tour"
+					},
+					"image": {
+						"src": "/imgs/img_square_1.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				}
+			}
+		},
+		"call-to-action-14-preview": "call-to-action-14"
+	},
+	"/call-to-action-15": {
+		"action": {
+			"image": {
+				"src": "/imgs/img_square_4.svg",
+				"class": "img-fluid",
+				"alt": "image"
+			},
+			"title": "Call to action",
+			"description": "On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word \"and\" and the Little Blind Text should turn around and return to its own, safe country.",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Take a Tour"
+			}
+		},
+		"call-to-action-15-preview": "call-to-action-15"
+	},
+	"/call-to-action-16": {
+		"action": {
+			"title": "Design Blocks is Open Source and free to use in your apps",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Call to Action"
+			}
+		},
+		"call-to-action-16-preview": "call-to-action-16"
+	},
+	"/call-to-action-17": {
+		"action": {
+			"image": {
+				"src": "/imgs/img_round.svg",
+				"class": "fdb-icon",
+				"alt": "image"
+			},
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Call to Action"
+			}
+		},
+		"call-to-action-17-preview": "call-to-action-17"
+	},
+	"/call-to-action-18": {
+		"action": {
+			"image": {
+				"src": "/imgs/Logo_SimplyEdit.svg",
+				"alt": "image"
+			},
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Call to Action"
+			},
+			"actions": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_tall.png",
+						"class": "img-fluid br-0",
+						"alt": "image"
+					}
+				}
+			}
+		},
+		"call-to-action-18-preview": "call-to-action-18"
+	},
+	"/call-to-action-19": {
+		"action": {
+			"image": {
+				"src": "/imgs/colors_wide_1.jpg",
+				"class": "img-fluid",
+				"alt": "image"
+			},
+			"title": "Design Blocks",
+			"description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Call to Action"
+			}
+		},
+		"call-to-action-19-preview": "call-to-action-19"
+	},
+	"/call-to-action-20": {
+		"action": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Call to Action"
+			},
+			"image": {
+				"src": "/imgs/img_very_wide.svg",
+				"class": "img-fluid",
+				"alt": "image"
+			}
+		},
+		"call-to-action-20-preview": "call-to-action-20"
+	},
+	"/call-to-action-21": {
+		"action": {
+			"title": "Design Blocks is build on Boostrap Framework",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there.",
+			"link": {
+				"href": "#",
+				"class": "btn btn-shadow",
+				"innerHTML": "Call to Action"
+			},
+			"sublink": {
+				"href": "#",
+				"class": "btn btn-white btn-shadow",
+				"innerHTML": "Button"
+			}
+		},
+		"call-to-action-21-preview": "call-to-action-21"
+	},
+	"/call-to-action-22": {
+		"action": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Call to Action"
+			},
+			"actions": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature One",
+					"description": "Far far away, behind the word mountains, far from the countries"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature Two",
+					"description": "Separated they live in Bookmarksgrove right at the coast"
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature Three",
+					"description": "A small river named Duden flows by their place and supplies it"
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature Four",
+					"description": "Far far away, behind the word mountains, far from the countries"
+				}
+			}
+		},
+		"call-to-action-22-preview": "call-to-action-22"
+	},
+	"/contact-1": {
+		"contact": {
+			"map": {
+				"src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656"
+			},
+			"title": "Contact Us",
+			"description": "\n                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.\n                ",
+			"subdescription": "\n                  It is a paradisematic country, in which roasted parts of sentences fly into your mouth.\n                ",
+			"email": {
+				"href": "#",
+				"innerHTML": "hello@website.com"
+			},
+			"phone": {
+				"href": "#",
+				"innerHTML": "+44 123 123 1232"
+			}
+		},
+		"contact-1-preview": "contact-1"
+	},
+	"/contact-2": {
+		"contact": {
+			"title": "Contact Us",
+			"subtitle": "We love to hear from you!"
+		},
+		"contact-2-preview": "contact-2"
+	},
+	"/contact-3": {
+		"contact": {
+			"title": "Contact Us",
+			"description": "One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.",
+			"map": {
+				"src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656"
+			}
+		},
+		"contact-3-preview": "contact-3"
+	},
+	"/contact-4": {
+		"contact": {
+			"title": "Contact Us",
+			"description": "Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy."
+		},
+		"contact-4-preview": "contact-4"
+	},
+	"/contact-5": {
+		"contact": {
+			"map": {
+				"src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656"
+			},
+			"title": "Contact Us",
+			"phone-image": {
+				"src": "/imgs/img_round.svg",
+				"class": "mb-2",
+				"alt": "image"
+			},
+			"phone": "+44 (112) 123 752",
+			"address-image": {
+				"src": "/imgs/img_round.svg",
+				"class": "mb-2",
+				"alt": "image"
+			},
+			"address": "123 6th St.<br>Melbourne, FL 32904",
+			"email-image": {
+				"src": "/imgs/img_round.svg",
+				"class": "mb-2",
+				"alt": "image"
+			},
+			"email": "support@website.com",
+			"sublinks": "\n                  <a href=\"#\"><i class=\"fa fa-facebook\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-twitter\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-instagram\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-google\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-pinterest\"></i></a>\n                "
+		},
+		"contact-5-preview": "contact-5"
+	},
+	"/contact-6": {
+		"contact": {
+			"map": {
+				"src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656"
+			}
+		},
+		"contact-6-preview": "contact-6"
+	},
+	"/contact-7": {
+		"contact": {
+			"title": "Contact Us",
+			"description": "If you\u2019re already an active user, please <a href=\"#\">sign in</a> before contacting us.",
+			"map": {
+				"src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656"
+			}
+		},
+		"contact-7-preview": "contact-7"
+	},
+	"/contact-8": {
+		"contact": {
+			"title": "Contact Us",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+			"subtitle": "Call or email",
+			"contacts": {
+				"0": {
+					"title": "Support",
+					"description": "\n                  +800 3005 4300\n                ",
+					"link": {
+						"href": "#",
+						"innerHTML": "Contact Support"
+					},
+					"subdescription": "\n                  Our technical support is available by phone or email from 11am to 11pm BST, Monday through Friday.\n                "
+				},
+				"1": {
+					"title": "Sales",
+					"description": "\n                  +800 3005 4300\n                ",
+					"link": {
+						"href": "#",
+						"innerHTML": "hello@website.com"
+					},
+					"subdescription": "\n                  Our technical support is available by phone or email from 11am to 11pm BST, Monday through Friday.\n                "
+				},
+				"2": {
+					"title": "Drop us a line"
+				}
+			}
+		},
+		"contact-8-preview": "contact-8"
+	},
+	"/contact-9": {
+		"contact": {
+			"title": "support@website.com",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+			"links": "\n                  <a href=\"#\"><i class=\"fa fa-facebook\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-twitter\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-instagram\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-google\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-pinterest\"></i></a>\n                "
+		},
+		"contact-9-preview": "contact-9"
+	},
+	"/contact-10": {
+		"contact": {
+			"title": "Contact Us",
+			"description": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+			"map": {
+				"src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656"
+			},
+			"subtitle": "Showroom",
+			"subdescription": "\n                  71 Pilgrim Avenue<br>Chevy Chase, MD 20815\n                "
+		},
+		"contact-10-preview": "contact-10"
+	},
+	"/content-1": {
+		"content": {
+			"title": "Design Blocks"
+		},
+		"content-1-preview": "content-1"
+	},
+	"/content-2": {
+		"content": {
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in <a href=\"#\">Bookmarksgrove</a> right at the coast of the Semantics, a large language ocean."
+		},
+		"content-2-preview": "content-2"
+	},
+	"/content-3": {
+		"content": {
+			"title": "Design Blocks",
+			"description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far <a href=\"#\">World of Grammar</a>."
+		},
+		"content-3-preview": "content-3"
+	},
+	"/content-4": {
+		"content": {
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+		},
+		"content-4-preview": "content-4"
+	},
+	"/content-5": {
+		"content": {
+			"description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far <a href=\"#\">World of Grammar</a>."
+		},
+		"content-5-preview": "content-5"
+	},
+	"/content-6": {
+		"content": {
+			"title": "Far far away...",
+			"description": "Far far away, behind the word mountains, far from the countries <a href=\"#\">Vokalia</a> and <a href=\"#\">Consonantia</a>, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+			"subdescription": "On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word \"and\" and the <a href=\"#\">Little Blind Text</a> should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn\u2019t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their."
+		},
+		"content-6-preview": "content-6"
+	},
+	"/content-7": {
+		"content": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place far far away.",
+			"subdescription": "Separated they live in Bookmarksgrove right at the coast of the Semantics, far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast."
+		},
+		"content-7-preview": "content-7"
+	},
+	"/content-8": {
+		"content": {
+			"title": "Design Blocks",
+			"subtitle": "Subtitle comes here.",
+			"description": "<a href=\"#\">Learn More &gt;</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"#\">Buy &gt;</a>",
+			"image": {
+				"src": "/imgs/colors_wide_1.jpg",
+				"class": "img-fluid mt-5",
+				"alt": "image"
+			}
+		},
+		"content-8-preview": "content-8"
+	},
+	"/content-9": {
+		"content": {
+			"title": "Design Blocks",
+			"images": {
+				"0": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/colors_wide_2.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				}
+			}
+		},
+		"content-9-preview": "content-9"
+	},
+	"/content-10": {
+		"content": {
+			"title": "Design Blocks",
+			"images": {
+				"0": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				}
+			}
+		},
+		"content-10-preview": "content-10"
+	},
+	"/content-11": {
+		"content": {
+			"title": "Design Blocks",
+			"images": {
+				"0": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/colors_wide_2.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/colors_wide_2.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				}
+			}
+		},
+		"content-11-preview": "content-11"
+	},
+	"/content-12": {
+		"content": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+			"image": {
+				"src": "/imgs/colors_wide_1.jpg",
+				"class": "img-fluid",
+				"alt": "image"
+			}
+		},
+		"content-12-preview": "content-12"
+	},
+	"/content-13": {
+		"content": {
+			"image": {
+				"src": "/imgs/img_square_1.svg",
+				"class": "fdb-icon mb-4",
+				"alt": "image"
+			},
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+		},
+		"content-13-preview": "content-13"
+	},
+	"/content-14": {
+		"content": {
+			"image": {
+				"src": "/imgs/colors_wide_1.jpg",
+				"class": "img-fluid",
+				"alt": "image"
+			},
+			"title": "Blocks",
+			"description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+			"link": {
+				"href": "#",
+				"class": "btn btn-round mt-4",
+				"innerHTML": "Download"
+			}
+		},
+		"content-14-preview": "content-14"
+	},
+	"/content-15": {
+		"content": {
+			"image": {
+				"src": "/imgs/img_square_1.svg",
+				"class": "fdb-icon",
+				"alt": "image"
+			},
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+			"images": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_tall.png",
+						"class": "img-fluid br-0",
+						"alt": "image"
+					}
+				}
+			}
+		},
+		"content-15-preview": "content-15"
+	},
+	"/content-16": {
+		"content": {
+			"images": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_square_1.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					}
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_square_2.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					}
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_square_3.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					}
+				}
+			},
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+		},
+		"content-16-preview": "content-16"
+	},
+	"/content-17": {
+		"content": {
+			"image": {
+				"src": "/imgs/img_tall.png",
+				"class": "img-fluid br-0",
+				"alt": "image"
+			},
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+			"link": {
+				"href": "#",
+				"class": "btn btn-round mt-4 mb-5 mb-md-0",
+				"innerHTML": "Download"
+			}
+		},
+		"content-17-preview": "content-17"
+	},
+	"/content-18": {
+		"content": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+			"subdescription": "<strong>Works in every browser:</strong>",
+			"images": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_square_1.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					}
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_square_2.svg",
+						"class": "fdb-icon ml-2",
+						"alt": "image"
+					}
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_square_3.svg",
+						"class": "fdb-icon ml-2",
+						"alt": "image"
+					}
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_square_4.svg",
+						"class": "fdb-icon ml-2",
+						"alt": "image"
+					}
+				}
+			},
+			"image": {
+				"src": "/imgs/colors_wide_1.jpg",
+				"class": "img-fluid",
+				"alt": "image"
+			}
+		},
+		"content-18-preview": "content-18"
+	},
+	"/content-19": {
+		"content": {
+			"image": {
+				"src": "/imgs/img_square_1.svg",
+				"class": "fdb-icon",
+				"alt": "image"
+			},
+			"title": "Awesome Things",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far from the countries Vokalia and Consonantia.",
+			"subimage": {
+				"src": "/imgs/img_square_2.svg",
+				"class": "fdb-icon",
+				"alt": "image"
+			},
+			"subtitle": "More Awesomeness",
+			"subdescription": "Separated they live in Bookmarksgrove right at the coast of the Semantics, far far away, behind the word mountains, far from the countries <a href=\"#\">Vokalia and Consonantia</a>, there live the blind texts. "
+		},
+		"content-19-preview": "content-19"
+	},
+	"/content-20": {
+		"content": {
+			"title": "Design Blocks",
+			"description": "When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove",
+			"link": {
+				"href": "#",
+				"innerHTML": "Learn More &gt;"
+			}
+		},
+		"content-20-preview": "content-20"
+	},
+	"/content-21": {
+		"content": {
+			"title": "Design Blocks",
+			"description": "When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove",
+			"link": {
+				"href": "#",
+				"class": "btn btn-round",
+				"innerHTML": "Register"
+			}
+		},
+		"content-21-preview": "content-21"
+	},
+	"/content-22": {
+		"content": {
+			"image": {
+				"src": "/imgs/Logo_SimplyEdit.svg",
+				"alt": "image"
+			},
+			"title": "Design Blocks",
+			"description": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies",
+			"link": {
+				"href": "#",
+				"class": "btn btn-round",
+				"innerHTML": "Download Now"
+			},
+			"subdescription": "Latest Version: 2.3.5"
+		},
+		"content-22-preview": "content-22"
+	},
+	"/content-23": {
+		"content": {
+			"subimage": {
+				"src": "/imgs/img_tall.png",
+				"class": "img-fluid br-0",
+				"alt": "image"
+			},
+			"image": {
+				"src": "/imgs/img_square_1.svg",
+				"class": "fdb-icon",
+				"alt": "image"
+			},
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Download"
+			},
+			"sublink": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Register"
+			}
+		},
+		"content-23-preview": "content-23"
+	},
+	"/content-24": {
+		"content": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+			"images": {
+				"0": {
+					"image": {
+						"src": "/imgs/customers/samsung.svg",
+						"class": "mr-4",
+						"alt": "image"
+					}
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/customers/adobe.svg",
+						"class": "mr-4",
+						"alt": "image"
+					}
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/customers/amazon.svg",
+						"alt": "image"
+					}
+				}
+			},
+			"image": {
+				"src": "/imgs/img_tall.png",
+				"class": "img-fluid br-0",
+				"alt": "image"
+			}
+		},
+		"content-24-preview": "content-24"
+	},
+	"/content-25": {
+		"content": {
+			"title": "Design Blocks is Open Source and free to use"
+		},
+		"image": {
+			"src": "/imgs/colors_wide_1.jpg",
+			"class": "img-fluid",
+			"alt": "image"
+		},
+		"content-25-preview": "content-25"
+	},
+	"/content-26": {
+		"content": {
+			"title": "Blocks",
+			"description": "When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove",
+			"link": {
+				"href": "#",
+				"innerHTML": "Learn More &gt;"
+			}
+		},
+		"content-26-preview": "content-26"
+	},
+	"/content-27": {
+		"content": {
+			"title": "Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+			"link": {
+				"href": "#",
+				"class": "btn",
+				"innerHTML": "Button"
+			},
+			"links": "\n                  <a href=\"#\"><i class=\"fa fa-twitter\" aria-hidden=\"true\"></i></a>&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-facebook\" aria-hidden=\"true\"></i></a>&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-instagram\" aria-hidden=\"true\"></i></a>&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-pinterest\" aria-hidden=\"true\"></i></a>&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-google\" aria-hidden=\"true\"></i></a>\n                "
+		},
+		"content-27-preview": "content-27"
+	},
+	"/content-28": {
+		"content": {
+			"title": "Made with <span class=\"heart\">\u2764</span>"
+		},
+		"content-28-preview": "content-28"
+	},
+	"/content-29": {
+		"content": {
+			"images": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_square_2.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_square_3.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_square_4.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				}
+			},
+			"image": {
+				"src": "/imgs/img_round.svg",
+				"class": "fdb-icon",
+				"alt": "image"
+			},
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia."
+		},
+		"content-29-preview": "content-29"
+	},
+	"/content-30": {
+		"content": {
+			"image": {
+				"src": "/imgs/colors_wide_1.jpg",
+				"class": "img-fluid",
+				"alt": "image"
+			},
+			"subimage": {
+				"src": "/imgs/colors_wide_2.jpg",
+				"class": "img-fluid",
+				"alt": "image"
+			},
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.",
+			"subdescription": "Right at the coast of the Semantics, a large language ocean. A small river named Duden. <a href=\"#\">[Read More]</a>"
+		},
+		"content-30-preview": "content-30"
+	},
+	"/content-31": {
+		"content": {
+			"title": "Your Website",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+			"link": {
+				"href": "#",
+				"innerHTML": "Read More"
+			},
+			"subtitle": "Amazing Design",
+			"subdescription": "Right at the coast of the Semantics, a large language ocean. A small river named Dude a rge language ocean there live the blind.",
+			"sublink": {
+				"href": "#",
+				"innerHTML": "Read More"
+			},
+			"image": {
+				"src": "/imgs/colors_wide_1.jpg",
+				"class": "img-fluid",
+				"alt": "image"
+			}
+		},
+		"content-31-preview": "content-31"
+	},
+	"/content-32": {
+		"content": {
+			"title": "Design Blocks",
+			"subtitle": "<em>Right at the coast of the Semantics, a large language ocean.</em>",
+			"contents": {
+				"0": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia."
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/colors_wide_2.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"description": "Right at the coast of the Semantics, a large language ocean. A small river named Duden."
+				}
+			}
+		},
+		"content-32-preview": "content-32"
+	},
+	"/content-33": {
+		"content": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics",
+			"link": {
+				"href": "#",
+				"innerHTML": "Read More"
+			}
+		},
+		"content-33-preview": "content-33"
+	},
+	"/content-34": {
+		"content": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. ",
+			"link": {
+				"href": "#",
+				"innerHTML": "Read More"
+			}
+		},
+		"content-34-preview": "content-34"
+	},
+	"/content-35": {
+		"content": {
+			"image": {
+				"src": "/imgs/img_square_1.svg",
+				"class": "img-fluid",
+				"alt": "image"
+			},
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  Separated they live in Bookmarksgrove right at the coast of the Semantics.",
+			"contents": {
+				"0": {
+					"title": "Open Source",
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia."
+				},
+				"1": {
+					"title": "Bootstrap",
+					"description": "Right at the coast of the Semantics, a large language ocean. A small river named Duden."
+				}
+			}
+		},
+		"content-35-preview": "content-35"
+	},
+	"/feature-1": {
+		"feature": {
+			"features": {
+				"0": {
+					"title": "Feature 1",
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia."
+				},
+				"1": {
+					"title": "Feature 2",
+					"description": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+				},
+				"2": {
+					"title": "Feature 3",
+					"description": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+				},
+				"3": {
+					"title": "Feature 4",
+					"description": "It is a paradisematic country, in which roasted parts of sentences fly into your mouth"
+				},
+				"4": {
+					"title": "Feature 5",
+					"description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day."
+				},
+				"5": {
+					"title": "Feature 6",
+					"description": "The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks"
+				}
+			}
+		},
+		"feature-1-preview": "feature-1"
+	},
+	"/feature-2": {
+		"feature": {
+			"features": {
+				"0": {
+					"title": "Feature 1",
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia."
+				},
+				"1": {
+					"title": "Feature 2",
+					"description": "Separated they live in Bookmarksgrove right at the coast of the."
+				},
+				"2": {
+					"title": "<strong>Feature 3</strong>",
+					"description": "A small river named Duden flows by their place and supplies it with."
+				},
+				"3": {
+					"title": "<strong>Feature 4</strong>",
+					"description": "But nothing the copy said could convince her and so it didn\u2019t take long"
+				},
+				"4": {
+					"title": "<strong>Feature 5</strong>",
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia."
+				},
+				"5": {
+					"title": "<strong>Feature 6</strong>",
+					"description": "Separated they live in Bookmarksgrove right at the coast of the."
+				},
+				"6": {
+					"title": "<strong>Feature 7</strong>",
+					"description": "A small river named Duden flows by their place and supplies it with."
+				},
+				"7": {
+					"title": "Feature 8",
+					"description": "But nothing the copy said could convince her and so it didn\u2019t take long"
+				}
+			}
+		},
+		"feature-2-preview": "feature-2"
+	},
+	"/feature-3": {
+		"feature": {
+			"title": "Features",
+			"features": {
+				"0": {
+					"title": "Feature One",
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+				},
+				"1": {
+					"title": "Feature Two",
+					"description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line."
+				},
+				"2": {
+					"title": "Feature Three",
+					"description": "On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times."
+				},
+				"3": {
+					"title": "Feature Four",
+					"description": "A small river named Duden flows by their place far far away, behind the word mountains, far from the countries Vokalia and Consonantia."
+				}
+			}
+		},
+		"feature-3-preview": "feature-3"
+	},
+	"/feature-4": {
+		"feature": {
+			"title": "Design Blocks",
+			"features": {
+				"0": {
+					"title": "Feature 1",
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.",
+					"link": {
+						"href": "#",
+						"innerHTML": "Learn More &gt;"
+					}
+				},
+				"1": {
+					"title": "Feature 2",
+					"description": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+					"link": {
+						"href": "#",
+						"innerHTML": "Learn More &gt;"
+					}
+				},
+				"2": {
+					"title": "Feature 3",
+					"description": "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+					"link": {
+						"href": "#",
+						"innerHTML": "Learn More &gt;"
+					}
+				}
+			}
+		},
+		"feature-4-preview": "feature-4"
+	},
+	"/feature-5": {
+		"feature": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+			"features": {
+				"0": {
+					"title": "Feature One",
+					"description": "A small river named Duden flows"
+				},
+				"1": {
+					"title": "Feature Two",
+					"description": "Separated they live in Bookmarksgrove"
+				}
+			},
+			"image": {
+				"src": "/imgs/colors_wide_1.jpg",
+				"class": "img-fluid",
+				"alt": "image"
+			}
+		},
+		"feature-5-preview": "feature-5"
+	},
+	"/feature-6": {
+		"feature": {
+			"image": {
+				"src": "/imgs/colors_wide_1.jpg",
+				"class": "img-fluid",
+				"alt": "image"
+			},
+			"title": "Design Blocks",
+			"features": {
+				"0": {
+					"title": "Feature One",
+					"description": "Far far away, behind the word mountains"
+				},
+				"1": {
+					"title": "Feature Two",
+					"description": "Separated they live in Bookmarksgrove"
+				},
+				"2": {
+					"title": "Feature Three",
+					"description": "A small river named Duden flows by me"
+				},
+				"3": {
+					"title": "Feature Four",
+					"description": "Separated they live in Bookmarksgrove"
+				}
+			}
+		},
+		"feature-6-preview": "feature-6"
+	},
+	"/feature-7": {
+		"feature": {
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature 1",
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature 2",
+					"description": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+				}
+			}
+		},
+		"feature-7-preview": "feature-7"
+	},
+	"/feature-8": {
+		"feature": {
+			"title": "Features",
+			"image": {
+				"src": "/imgs/img_very_wide.svg",
+				"class": "img-fluid mt-5",
+				"alt": "image"
+			},
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature 1"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature 2"
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature 3"
+				}
+			}
+		},
+		"feature-8-preview": "feature-8"
+	},
+	"/feature-9": {
+		"feature": {
+			"title": "Features",
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature 1",
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "<strong>Feature 2</strong>",
+					"description": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature 3",
+					"description": "A small river named Duden flows by their place and supplies it with the necessary regelialia"
+				}
+			}
+		},
+		"feature-9-preview": "feature-9"
+	},
+	"/feature-10": {
+		"feature": {
+			"title": "Features",
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature One",
+					"description": "Far far away, behind the word mountains, far from the countries"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature Two",
+					"description": "Separated they live in Bookmarksgrove right at the coast"
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature Three",
+					"description": "A small river named Duden flows by their place and supplies it"
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature Four",
+					"description": "Duden flows by their place far far away, behind the word mountains."
+				}
+			}
+		},
+		"feature-10-preview": "feature-10"
+	},
+	"/feature-11": {
+		"feature": {
+			"title": "Features",
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature One",
+					"description": "Far far away, behind the word mountains, far from the countries"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Two",
+					"description": "Even the all-powerful Pointing has no control about the blind texts."
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Three",
+					"description": "A small river named Duden flows by their place and supplies it"
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Four",
+					"description": "Duden flows by their place far far away, behind the word mountains."
+				},
+				"4": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Five",
+					"description": "Separated they live in Bookmarksgrove right at the coast"
+				},
+				"5": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Six",
+					"description": "On her way she met a copy. The copy warned the Little Blind Text."
+				}
+			}
+		},
+		"feature-11-preview": "feature-11"
+	},
+	"/feature-12": {
+		"feature": {
+			"title": "Features",
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature One",
+					"description": "Even the all-powerful Pointing has no control about the blind texts"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Two",
+					"description": "Separated they live in Bookmarksgrove right at the coast"
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Three",
+					"description": "A small river named Duden flows by their place and supplies it"
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Four",
+					"description": "Far far away, behind the word mountains, far from the countries"
+				},
+				"4": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Five",
+					"description": "On her way she met a copy. The copy warned the Little Blind Text."
+				},
+				"5": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Six",
+					"description": "Far far away, behind the word mountains, far from the countries"
+				},
+				"6": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Seven",
+					"description": "Duden flows by their place far far away, behind the word mountains."
+				},
+				"7": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Eight",
+					"description": "Separated they live in Bookmarksgrove right at the coast"
+				}
+			}
+		},
+		"feature-12-preview": "feature-12"
+	},
+	"/feature-13": {
+		"feature": {
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature One",
+					"description": "Far far away, behind the word mountains is hope."
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon mt-3 mt-xl-5",
+						"alt": "image"
+					},
+					"title": "Feature Two",
+					"description": "On her way she met a copy of the Little Blind Text."
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon mt-3 mt-xl-5",
+						"alt": "image"
+					},
+					"title": "Feature Three",
+					"description": "Even the all-powerful has no control about the blind texts"
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature Four",
+					"description": "Duden flows by their place, behind the word mountains."
+				},
+				"4": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon mt-3 mt-xl-5",
+						"alt": "image"
+					},
+					"title": "Feature Five",
+					"description": "Separated they live in Bookmark right at the coast"
+				},
+				"5": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon mt-3 mt-xl-5",
+						"alt": "image"
+					},
+					"title": "Feature Six",
+					"description": "A small river named Duden flows by their place and supplies it"
+				}
+			},
+			"image": {
+				"src": "/imgs/img_very_tall.png",
+				"class": "img-fluid br-b-0",
+				"alt": "image"
+			}
+		},
+		"feature-13-preview": "feature-13"
+	},
+	"/feature-14": {
+		"feature": {
+			"image": {
+				"src": "/imgs/img_very_tall.png",
+				"class": "img-fluid br-b-0",
+				"alt": "image"
+			},
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature One",
+					"description": "Even the all-powerful Pointing has no control about the blind texts."
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Two",
+					"description": "Duden flows by their place far far away, behind the word mountains."
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Three",
+					"description": "A small river named Duden flows by their place and supplies it."
+				}
+			}
+		},
+		"feature-14-preview": "feature-14"
+	},
+	"/feature-15": {
+		"feature": {
+			"title": "Features",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences."
+				},
+				"1": {
+					"description": "When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, there live the blind texts.",
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				}
+			},
+			"image": {
+				"src": "/imgs/img_very_tall.png",
+				"class": "img-fluid br-b-0",
+				"alt": "image"
+			}
+		},
+		"feature-15-preview": "feature-15"
+	},
+	"/feature-16": {
+		"feature": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+			"image": {
+				"src": "/imgs/img_tall.png",
+				"class": "img-fluid br-b-0",
+				"alt": "image"
+			},
+			"features": {
+				"0": {
+					"title": "Feature One",
+					"description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences."
+				},
+				"1": {
+					"title": "Feature Two",
+					"description": "When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, there live the blind texts."
+				},
+				"2": {
+					"title": "Feature Three",
+					"description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum."
+				}
+			}
+		},
+		"feature-16-preview": "feature-16"
+	},
+	"/feature-17": {
+		"feature": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+			"image": {
+				"src": "/imgs/img_very_wide.svg",
+				"class": "img-fluid mt-5",
+				"alt": "image"
+			},
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature One",
+					"description": "Far far away, behind the word mountains, far from the countries"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Two",
+					"description": "Separated they live in Bookmarksgrove right at the coast"
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Three",
+					"description": "A small river named Duden flows by their place and supplies it"
+				}
+			}
+		},
+		"feature-17-preview": "feature-17"
+	},
+	"/feature-18": {
+		"feature": {
+			"title": "Features",
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature One",
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature Two",
+					"description": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. "
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature Three",
+					"description": "A small river named Duden flows by their place and supplies it  with the necessary regelialia. It is a paradisematic country,"
+				}
+			},
+			"image": {
+				"src": "/imgs/img_very_wide.svg",
+				"class": "img-fluid",
+				"alt": "image"
+			}
+		},
+		"feature-18-preview": "feature-18"
+	},
+	"/feature-19": {
+		"feature": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_square_1.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature One",
+					"description": "Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_square_2.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Two",
+					"description": "It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life."
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_square_3.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Three",
+					"description": "The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn\u2019t listen."
+				}
+			}
+		},
+		"feature-19-preview": "feature-19"
+	},
+	"/feature-20": {
+		"feature": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+			"image": {
+				"src": "/imgs/img_very_wide.svg",
+				"class": "img-fluid mt-5",
+				"alt": "image"
+			},
+			"features": {
+				"0": {
+					"title": "Feature One",
+					"description": "Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.",
+					"link": {
+						"href": "#",
+						"innerHTML": "Learn More &gt;"
+					}
+				},
+				"1": {
+					"title": "Feature Two",
+					"description": "It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli. On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin.",
+					"link": {
+						"href": "#",
+						"innerHTML": "Learn More &gt;"
+					}
+				}
+			}
+		},
+		"feature-20-preview": "feature-20"
+	},
+	"/feature-21": {
+		"feature": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word \"and\" and the Little Blind Text.",
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_square_2.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature One",
+					"description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar."
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_square_4.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Two",
+					"description": "It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life."
+				}
+			}
+		},
+		"feature-21-preview": "feature-21"
+	},
+	"/feature-22": {
+		"feature": {
+			"title": "Design Blocks",
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_square_1.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature One",
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+					"link": {
+						"href": "#",
+						"innerHTML": "Learn More &gt;"
+					}
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_square_3.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Two",
+					"description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.",
+					"link": {
+						"href": "#",
+						"innerHTML": "Learn More &gt;"
+					}
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_square_2.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Three",
+					"description": "On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word \"and\" and the Little Blind Text should turn around.",
+					"link": {
+						"href": "#",
+						"innerHTML": "Learn More &gt;"
+					}
+				}
+			}
+		},
+		"feature-22-preview": "feature-22"
+	},
+	"/feature-23": {
+		"feature": {
+			"title": "Design Blocks is simply ahead the word mountains",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+			"link": {
+				"href": "#",
+				"innerHTML": "Explore all features &gt;"
+			},
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature One"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Two"
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Three"
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Four"
+				}
+			}
+		},
+		"feature-23-preview": "feature-23"
+	},
+	"/feature-24": {
+		"feature": {
+			"title": "Learn more about the Design Blocks you love",
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"link": {
+						"href": "#",
+						"innerHTML": "One &gt;"
+					}
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"link": {
+						"href": "#",
+						"innerHTML": "Two &gt;"
+					}
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"link": {
+						"href": "#",
+						"innerHTML": "Three &gt;"
+					}
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"link": {
+						"href": "#",
+						"innerHTML": "Four &gt;"
+					}
+				},
+				"4": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"link": {
+						"href": "#",
+						"innerHTML": "Five &gt;"
+					}
+				}
+			}
+		},
+		"feature-24-preview": "feature-24"
+	},
+	"/feature-25": {
+		"feature": {
+			"title": "There is a feature for everyone",
+			"link": {
+				"href": "#",
+				"innerHTML": "See all features &gt;"
+			},
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_square_1.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature One"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_square_4.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Two"
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_square_2.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Three"
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_square_3.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "<strong>Feature Four</strong>"
+				}
+			}
+		},
+		"feature-25-preview": "feature-25"
+	},
+	"/feature-26": {
+		"feature": {
+			"title": "Design Blocks",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+			"image": {
+				"src": "/imgs/img_square_1.svg",
+				"class": "img-fluid",
+				"alt": "image"
+			},
+			"features": {
+				"0": {
+					"title": "Feature One",
+					"description": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large ocean."
+				},
+				"1": {
+					"title": "Feature Two",
+					"description": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+				},
+				"2": {
+					"title": "Feature Three",
+					"description": "It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+				},
+				"3": {
+					"title": "Feature Four",
+					"description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life."
+				}
+			}
+		},
+		"feature-26-preview": "feature-26"
+	},
+	"/feature-27": {
+		"feature": {
+			"title": "Design Blocks",
+			"image": {
+				"src": "/imgs/img_very_wide.svg",
+				"class": "img-fluid mt-5",
+				"alt": "image"
+			},
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature One",
+					"description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life."
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"title": "Feature Two",
+					"description": "Separated they live in Bookmarksgrove, right at the coast of the Semantics, a large language ocean."
+				}
+			}
+		},
+		"feature-27-preview": "feature-27"
+	},
+	"/feature-28": {
+		"feature": {
+			"title": "Features",
+			"features": {
+				"0": {
+					"title": "Feature 1",
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia"
+				},
+				"1": {
+					"title": "Feature 2",
+					"description": "Separated they live in Bookmarksgrove right at the coast, a large language ocean."
+				},
+				"2": {
+					"title": "Feature 3",
+					"description": "A small river named Duden flows by their place and supplies it with the necessary regelialia"
+				}
+			}
+		},
+		"feature-28-preview": "feature-28"
+	},
+	"/feature-29": {
+		"feature": {
+			"title": "Design Blocks",
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature one longer Text"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature two shorter"
+				}
+			},
+			"image": {
+				"src": "/imgs/img_very_wide.svg",
+				"class": "img-fluid",
+				"alt": "image"
+			},
+			"description": "<em>Coming this fall</em>"
+		},
+		"feature-29-preview": "feature-29"
+	},
+	"/feature-30": {
+		"feature": {
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "The all-powerful Pointing has no control",
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Learn"
+					}
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Far far away, behind the word mountains",
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Learn"
+					}
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "The Big Oxmox advised her not to do so",
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Learn"
+					}
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "The copy warned the Little Blind Text",
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Learn"
+					}
+				}
+			}
+		},
+		"feature-30-preview": "feature-30"
+	},
+	"/feature-31": {
+		"feature": {
+			"features": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature 1",
+					"description": "Far far away, behind the word mountains, far from the countries."
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature 2",
+					"description": "Separated they live in Bookmarksgrove right at the coast."
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "fdb-icon",
+						"alt": "image"
+					},
+					"title": "Feature 3",
+					"description": "A small river named Duden flows by their place and supplies."
+				}
+			}
+		},
+		"feature-31-preview": "feature-31"
+	},
+	"/feature-32": {
+		"feature": {
+			"features": {
+				"0": {
+					"title": "Feature 1",
+					"description": "Far far away, behind the word mountains, far from the country Vokalia, there live the blind texts.",
+					"link": {
+						"href": "#",
+						"innerHTML": "Read more"
+					}
+				},
+				"1": {
+					"title": "Feature 2",
+					"description": "Separated they live in Bookmarks right at the coast of the Semantics, a large language ocean.",
+					"link": {
+						"href": "#",
+						"innerHTML": "Read more"
+					}
+				},
+				"2": {
+					"title": "Feature 3",
+					"description": "A small river named Duden flows by their small place and supplies it with the necessary regelialia.",
+					"link": {
+						"href": "#",
+						"innerHTML": "Read more"
+					}
+				}
+			}
+		},
+		"feature-32-preview": "feature-32"
+	},
+	"/feature-33": {
+		"feature": {
+			"features": {
+				"0": {
+					"title": "Feature One",
+					"description": "<strong>Far far away</strong>, behind the word mountains, far from the countries <a href=\"#\">Vokalia and Consonantia</a>, there live the blind texts."
+				},
+				"1": {
+					"title": "Feature Two",
+					"description": "A small river named Duden flows by their place and supplies it with the necessary regelialia."
+				},
+				"2": {
+					"title": "Feature Three",
+					"description": "Even the all-powerful Pointing has no control about the <strong>blind texts</strong> it is an almost unorthographic life."
+				}
+			}
+		},
+		"feature-33-preview": "feature-33"
+	},
+	"/form-1": {
+		"form": {
+			"title": "Subscribe",
+			"social": "Find us on <a href=\"#\">Facebook</a> and <a href=\"#\">Twitter</a>."
+		},
+		"form-1-preview": "form-1"
+	},
+	"/form-2": {
+		"form": {
+			"title": "Join us!",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia. "
+		},
+		"form-2-preview": "form-2"
+	},
+	"/form-3": {
+		"form": {
+			"title": "Register",
+			"description": "When she reached the first hills, she had a last view back on the skyline of her hometown."
+		},
+		"form-3-preview": "form-3"
+	},
+	"/form-4": {
+		"form": {
+			"title": "Sign Up",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia. "
+		},
+		"form-4-preview": "form-4"
+	},
+	"/form-5": {
+		"form": {
+			"title": "Log In",
+			"description": "Right at the coast of the Semantics, a large language ocean. A small river named Duden."
+		},
+		"form-5-preview": "form-5"
+	},
+	"/form-6": {
+		"form": {
+			"title": "Register",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia. ",
+			"terms": "I Read and Accept <a href=\"#\">Terms and Conditions</a>"
+		},
+		"form-6-preview": "form-6"
+	},
+	"/form-7": {
+		"form": {
+			"title": "Log In"
+		},
+		"form-7-preview": "form-7"
+	},
+	"/form-8": {
+		"form": {
+			"title": "Register",
+			"description": "<a href=\"#\">Already have an account?</a>"
+		},
+		"form-8-preview": "form-8"
+	},
+	"/form-9": {
+		"form": {
+			"title": "Never miss an update",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. ",
+			"subdescription": "<em>*Your email address is safe with us. We never share your email address.</em>"
+		},
+		"form-9-preview": "form-9"
+	},
+	"/form-10": {
+		"form": {
+			"title": "Company Name",
+			"description": "When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown.",
+			"social": "\n                  <a href=\"#\"><i class=\"fa fa-facebook\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-twitter\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-instagram\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-google\"></i></a>&nbsp;&nbsp;&nbsp;\n                  <a href=\"#\"><i class=\"fa fa-pinterest\"></i></a>\n                "
+		},
+		"form-10-preview": "form-10"
+	},
+	"/form-11": {
+		"form": {
+			"image": {
+				"src": "/imgs/colors_wide_1.jpg",
+				"class": "img-fluid",
+				"alt": "image"
+			},
+			"title": "Subscribe",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia. ",
+			"subdescription": "* Leave your email address to be notified first."
+		},
+		"form-11-preview": "form-11"
+	},
+	"/form-12": {
+		"form": {
+			"title": "Subscribe",
+			"description": "When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove."
+		},
+		"form-12-preview": "form-12"
+	},
+	"/pricing-1": {
+		"pricing": {
+			"title": "Pricing",
+			"pricings": {
+				"0": {
+					"title": "Hobby",
+					"price": "<strong>$9 / month</strong>",
+					"description": "Even the all-powerful Pointing has no control about the blind texts.",
+					"usps": {
+						"0": {
+							"title": "Item 1"
+						},
+						"1": {
+							"title": "Item 2"
+						},
+						"2": {
+							"title": "Item 3"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn mt-4",
+						"innerHTML": "Subscribe"
+					}
+				},
+				"1": {
+					"title": "Professional",
+					"price": "<strong>$19 / month</strong>",
+					"description": "Far far away, behind the word mountains, far from the countries.",
+					"usps": {
+						"0": {
+							"title": "Item 1"
+						},
+						"1": {
+							"title": "Item 2"
+						},
+						"2": {
+							"title": "Item 3"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn mt-4",
+						"innerHTML": "Subscribe"
+					}
+				},
+				"2": {
+					"title": "Business",
+					"price": "<strong>$49 / month</strong>",
+					"description": "Wild Question Marks, but the Little Blind Text didn\u2019t listen.",
+					"usps": {
+						"0": {
+							"title": "Item 1"
+						},
+						"1": {
+							"title": "Item 2"
+						},
+						"2": {
+							"title": "Item 3"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn mt-4",
+						"innerHTML": "Subscribe"
+					}
+				}
+			}
+		},
+		"pricing-1-preview": "pricing-1"
+	},
+	"/pricing-2": {
+		"pricing": {
+			"title": "Pricing",
+			"pricings": {
+				"0": {
+					"title": "Hobby",
+					"price": "$99",
+					"description": "<em>Copy Writers ambushed her, made her drunk with Longe.</em>",
+					"usps": {
+						"0": {
+							"title": "Item 1"
+						},
+						"1": {
+							"title": "Item 2"
+						},
+						"2": {
+							"title": "Item 3"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Buy Now"
+					}
+				},
+				"1": {
+					"title": "Advanced",
+					"price": "$349",
+					"description": "<em>Separated they live in Bookmarks right at the coast.</em>",
+					"usps": {
+						"0": {
+							"title": "Item 1"
+						},
+						"1": {
+							"title": "Item 2"
+						},
+						"2": {
+							"title": "Item 3"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Buy Now"
+					}
+				},
+				"2": {
+					"title": "Business",
+					"price": "$849",
+					"description": "<em>A small river named Duden flows by their place.</em>",
+					"usps": {
+						"0": {
+							"title": "Item 1"
+						},
+						"1": {
+							"title": "Item 2"
+						},
+						"2": {
+							"title": "Item 3"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Buy Now"
+					}
+				}
+			}
+		},
+		"pricing-2-preview": "pricing-2"
+	},
+	"/pricing-3": {
+		"pricing": {
+			"title": "Pricing",
+			"pricings": {
+				"0": {
+					"title": "Hobby",
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.",
+					"price": "$99",
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Buy Now"
+					}
+				},
+				"1": {
+					"title": "Advanced",
+					"description": "Separated they live in Bookmarksgrove right at the coast, a large language ocean.",
+					"price": "$299",
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Buy Now"
+					}
+				},
+				"2": {
+					"title": "Business",
+					"description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.",
+					"price": "$799",
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Buy Now"
+					}
+				}
+			}
+		},
+		"pricing-3-preview": "pricing-3"
+	},
+	"/pricing-4": {
+		"pricing": {
+			"title": "Pricing Plans",
+			"pricings": {
+				"0": {
+					"title": "Startup",
+					"price": "<strong>$9.90</strong>",
+					"usps": {
+						"0": {
+							"title": "<em>Unlimited calls</em>"
+						},
+						"1": {
+							"title": "<em>Free hosting</em>"
+						},
+						"2": {
+							"title": "<em>40MB of storage</em>"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round",
+						"innerHTML": "Choose Plan"
+					}
+				},
+				"1": {
+					"title": "Standard",
+					"price": "<strong>$29.90</strong>",
+					"description": "The copy warned the Blind Text, that it would have been rewritten",
+					"usps": {
+						"0": {
+							"title": "<em>Unlimited calls</em>"
+						},
+						"1": {
+							"title": "<em>Free hosting</em>"
+						},
+						"2": {
+							"title": "<em>1GB of storage</em>"
+						},
+						"3": {
+							"title": "<em>10 hours of support</em>"
+						},
+						"4": {
+							"title": "<em>Custom domain</em>"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round",
+						"innerHTML": "Choose Plan"
+					}
+				},
+				"2": {
+					"title": "Professional",
+					"price": "<strong>$59.90</strong>",
+					"description": " the headline of Alphabet Village and the subline of her own road.",
+					"usps": {
+						"0": {
+							"title": "<em>Unlimited calls</em>"
+						},
+						"1": {
+							"title": "<em>Free hosting</em>"
+						},
+						"2": {
+							"title": "<em>1GB of storage</em>"
+						},
+						"3": {
+							"title": "<em>20 hours of support</em>"
+						},
+						"4": {
+							"title": "<em>Custom domain</em>"
+						},
+						"5": {
+							"title": "<em>Analytics and SEO</em>"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round",
+						"innerHTML": "Choose Plan"
+					}
+				}
+			}
+		},
+		"pricing-4-preview": "pricing-4"
+	},
+	"/pricing-5": {
+		"pricing": {
+			"title": "Pricing Plans",
+			"pricings": {
+				"0": {
+					"title": "Basic",
+					"price": "$19",
+					"usps": {
+						"0": {
+							"title": "Item 1"
+						},
+						"1": {
+							"title": "Item 2"
+						},
+						"2": {
+							"title": "Item 3"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round btn-white btn-shadow",
+						"innerHTML": "Choose Plan"
+					}
+				},
+				"1": {
+					"title": "Standard",
+					"price": "$49",
+					"usps": {
+						"0": {
+							"title": "Item 1"
+						},
+						"1": {
+							"title": "Item 2"
+						},
+						"2": {
+							"title": "Item 3"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round btn-shadow",
+						"innerHTML": "Choose Plan"
+					}
+				},
+				"2": {
+					"title": "OEM",
+					"price": "$99",
+					"usps": {
+						"0": {
+							"title": "Item 1"
+						},
+						"1": {
+							"title": "Item 2"
+						},
+						"2": {
+							"title": "Item 3"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round btn-white btn-shadow",
+						"innerHTML": "Choose Plan"
+					}
+				}
+			}
+		},
+		"pricing-5-preview": "pricing-5"
+	},
+	"/pricing-6": {
+		"pricing": {
+			"title": "Pricing Plans",
+			"pricings": {
+				"0": {
+					"title": "Startup",
+					"price": "<strong>$9.90</strong>",
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"alt": "image"
+					},
+					"description": "<strong>For small companies</strong>",
+					"usps": {
+						"0": {
+							"title": "10 hours of support"
+						},
+						"1": {
+							"title": "40MB of storage"
+						},
+						"2": {
+							"title": "Subdomain"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round",
+						"innerHTML": "Choose Plan"
+					}
+				},
+				"1": {
+					"title": "Standard",
+					"price": "<strong>$19.90</strong>",
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"alt": "image"
+					},
+					"description": "<strong>For medium companies</strong>",
+					"usps": {
+						"0": {
+							"title": "10 hours of support"
+						},
+						"1": {
+							"title": "40MB of storage"
+						},
+						"2": {
+							"title": "Subdomain"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round",
+						"innerHTML": "Choose Plan"
+					}
+				},
+				"2": {
+					"title": "Business",
+					"price": "<strong>$29.90</strong>",
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"alt": "image"
+					},
+					"description": "<strong>For large companies</strong>",
+					"usps": {
+						"0": {
+							"title": "10 hours of support"
+						},
+						"1": {
+							"title": "40MB of storage"
+						},
+						"2": {
+							"title": "Subdomain"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round",
+						"innerHTML": "Choose Plan"
+					}
+				}
+			}
+		},
+		"pricing-6-preview": "pricing-6"
+	},
+	"/pricing-7": {
+		"pricing": {
+			"title": "Pricing Plans",
+			"pricings": {
+				"0": {
+					"title": "Startup",
+					"subtitle": "&lt; 10 employees",
+					"price": "$9.90",
+					"description": "Far far away, behind the word mountains, far from the countries.",
+					"usps": {
+						"0": {
+							"title": "Unlimited calls"
+						},
+						"1": {
+							"title": "Free hosting"
+						},
+						"2": {
+							"title": "40MB of storage"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round",
+						"innerHTML": "Subscribe"
+					}
+				},
+				"1": {
+					"title": "Agency",
+					"subtitle": "10-100 employees",
+					"price": "$19.90",
+					"description": "And if she hasn\u2019t been rewritten, then they are still using her.",
+					"usps": {
+						"0": {
+							"title": "Unlimited calls"
+						},
+						"1": {
+							"title": "Free hosting"
+						},
+						"2": {
+							"title": "40MB of storage"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round",
+						"innerHTML": "Subscribe"
+					}
+				},
+				"2": {
+					"title": "Business",
+					"subtitle": "&gt;100 employees",
+					"price": "$99.90",
+					"description": "Separated they live in Bookmarksgrove right at the coast of the Semantics.",
+					"usps": {
+						"0": {
+							"title": "Unlimited calls"
+						},
+						"1": {
+							"title": "Free hosting"
+						},
+						"2": {
+							"title": "40MB of storage"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round",
+						"innerHTML": "Subscribe"
+					}
+				}
+			}
+		},
+		"pricing-7-preview": "pricing-7"
+	},
+	"/pricing-8": {
+		"pricing": {
+			"title": "Pricing Plans",
+			"pricings": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"alt": "image"
+					},
+					"title": "Startup",
+					"price": "$9 / month",
+					"usps": {
+						"0": {
+							"title": "10 hours of support"
+						},
+						"1": {
+							"title": "40MB of storage"
+						},
+						"2": {
+							"title": "Subdomain"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round",
+						"innerHTML": "Choose Plan"
+					}
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"alt": "image"
+					},
+					"title": "Advanced",
+					"price": "$19 / month",
+					"usps": {
+						"0": {
+							"title": "10 hours of support"
+						},
+						"1": {
+							"title": "40MB of storage"
+						},
+						"2": {
+							"title": "Subdomain"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round",
+						"innerHTML": "Choose Plan"
+					}
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"alt": "image"
+					},
+					"title": "Business",
+					"price": "$29 / month",
+					"usps": {
+						"0": {
+							"title": "10 hours of support"
+						},
+						"1": {
+							"title": "40MB of storage"
+						},
+						"2": {
+							"title": "Subdomain"
+						}
+					},
+					"link": {
+						"href": "#",
+						"class": "btn btn-round",
+						"innerHTML": "Choose Plan"
+					}
+				}
+			}
+		},
+		"pricing-8-preview": "pricing-8"
+	},
+	"/pricing-9": {
+		"pricing": {
+			"title": "Pricing Plans",
+			"pricings": {
+				"0": {
+					"title": "Startup",
+					"price": "$99",
+					"link": {
+						"href": "#",
+						"class": "btn btn-empty",
+						"innerHTML": "Buy Now"
+					},
+					"usps": {
+						"0": {
+							"title": "10 hours of support"
+						},
+						"1": {
+							"title": "40MB of storage"
+						},
+						"2": {
+							"title": "Subdomain"
+						}
+					}
+				},
+				"1": {
+					"title": "Advanced",
+					"price": "$399",
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Buy Now"
+					},
+					"usps": {
+						"0": {
+							"title": "10 hours of support"
+						},
+						"1": {
+							"title": "40MB of storage"
+						},
+						"2": {
+							"title": "Subdomain"
+						}
+					}
+				},
+				"2": {
+					"title": "Business",
+					"price": "$999",
+					"link": {
+						"href": "#",
+						"class": "btn btn-empty",
+						"innerHTML": "Buy Now"
+					},
+					"usps": {
+						"0": {
+							"title": "10 hours of support"
+						},
+						"1": {
+							"title": "40MB of storage"
+						},
+						"2": {
+							"title": "Subdomain"
+						}
+					}
+				},
+				"3": {
+					"title": "Enterprise",
+					"price": "Call Us",
+					"link": {
+						"href": "#",
+						"class": "btn btn-empty",
+						"innerHTML": "Contact"
+					},
+					"usps": {
+						"0": {
+							"title": "10 hours of support"
+						},
+						"1": {
+							"title": "40MB of storage"
+						},
+						"2": {
+							"title": "Subdomain"
+						}
+					}
+				}
+			}
+		},
+		"pricing-9-preview": "pricing-9"
+	},
+	"/pricing-10": {
+		"pricing": {
+			"title": "Pricing Plans",
+			"pricings": {
+				"0": {
+					"title": "Hobby",
+					"price": "$99",
+					"link": {
+						"href": "#",
+						"class": "btn btn-empty",
+						"innerHTML": "Buy Now"
+					},
+					"usps": {
+						"0": {
+							"title": "3 months"
+						},
+						"1": {
+							"title": "\u2713"
+						},
+						"2": {
+							"title": "\u2713"
+						},
+						"3": {
+							"title": ""
+						},
+						"4": {
+							"title": ""
+						},
+						"5": {
+							"title": ""
+						},
+						"6": {
+							"title": ""
+						}
+					}
+				},
+				"1": {
+					"title": "Professional",
+					"price": "$399",
+					"link": {
+						"href": "#",
+						"class": "btn btn-empty",
+						"innerHTML": "Buy Now"
+					},
+					"usps": {
+						"0": {
+							"title": "6 months"
+						},
+						"1": {
+							"title": "\u2713"
+						},
+						"2": {
+							"title": "\u2713"
+						},
+						"3": {
+							"title": "\u2713"
+						},
+						"4": {
+							"title": ""
+						},
+						"5": {
+							"title": ""
+						},
+						"6": {
+							"title": ""
+						}
+					}
+				},
+				"2": {
+					"title": "Business",
+					"price": "$899",
+					"link": {
+						"href": "#",
+						"class": "btn",
+						"innerHTML": "Buy Now"
+					},
+					"usps": {
+						"0": {
+							"title": "12 months"
+						},
+						"1": {
+							"title": "\u2713"
+						},
+						"2": {
+							"title": "\u2713"
+						},
+						"3": {
+							"title": "\u2713"
+						},
+						"4": {
+							"title": "\u2713"
+						},
+						"5": {
+							"title": ""
+						},
+						"6": {
+							"title": ""
+						}
+					}
+				},
+				"3": {
+					"title": "Enterprise",
+					"price": "Call us",
+					"link": {
+						"href": "#",
+						"class": "btn btn-empty",
+						"innerHTML": "Contact"
+					},
+					"usps": {
+						"0": {
+							"title": "Custom"
+						},
+						"1": {
+							"title": "\u2713"
+						},
+						"2": {
+							"title": "\u2713"
+						},
+						"3": {
+							"title": "\u2713"
+						},
+						"4": {
+							"title": "\u2713"
+						},
+						"5": {
+							"title": "\u2713"
+						},
+						"6": {
+							"title": "\u2713"
+						}
+					}
+				}
+			},
+			"usps": {
+				"0": {
+					"title": "Support"
+				},
+				"1": {
+					"title": "Full source code"
+				},
+				"2": {
+					"title": "SaaS / Subscription"
+				},
+				"3": {
+					"title": "Intranet"
+				},
+				"4": {
+					"title": "Downloadable Software"
+				},
+				"5": {
+					"title": "Redistribute"
+				},
+				"6": {
+					"title": "Custom code"
+				}
+			}
+		},
+		"pricing-10-preview": "pricing-10"
+	},
+	"/team-1": {
+		"team": {
+			"title": "Our Team",
+			"description": "Far far away, behind the word mountains, far from the countries.",
+			"members": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_square_1.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"title": "Founder"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_square_2.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"title": "Founder"
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_square_3.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"title": "Founder"
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_square_4.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"title": "Founder"
+				}
+			}
+		},
+		"team-1-preview": "team-1"
+	},
+	"/team-2": {
+		"team": {
+			"title": "Meet Our Team",
+			"members": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"title": "Founder"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"title": "Founder"
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"title": "Founder"
+				}
+			}
+		},
+		"team-2-preview": "team-2"
+	},
+	"/team-3": {
+		"team": {
+			"title": "Meet Our Team",
+			"members": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"title": "Founder"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"title": "Founder"
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"title": "Founder"
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"title": "Founder"
+				},
+				"4": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"title": "Founder"
+				},
+				"5": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"title": "Founder"
+				}
+			}
+		},
+		"team-3-preview": "team-3"
+	},
+	"/team-4": {
+		"team": {
+			"title": "Team",
+			"members": {
+				"0": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "John Smith",
+					"title": "Position",
+					"description": "A wonderful serenity has taken possession of my entire soul."
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "John Smith",
+					"title": "Position",
+					"description": "Pityful a rethoric question ran over her cheek."
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "John Smith",
+					"title": "Position",
+					"description": "And if she hasn\u2019t been rewritten, then they are still using her."
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "John Smith",
+					"title": "Position",
+					"description": "Wild Question Marks, but the Little Blind Text didn\u2019t listen."
+				}
+			}
+		},
+		"team-4-preview": "team-4"
+	},
+	"/team-5": {
+		"team": {
+			"title": "Meet Our Team",
+			"members": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"description": "\"Wild Question Marks, but the Little Blind\""
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"description": "\"Wild Question Marks, but the Little Blind\""
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"description": "\"Wild Question Marks, but the Little Blind\""
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"description": "\"Wild Question Marks, but the Little Blind\""
+				},
+				"4": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"description": "\"Wild Question Marks, but the Little Blind\""
+				},
+				"5": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"description": "\"Wild Question Marks, but the Little Blind\""
+				},
+				"6": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"description": "\"Wild Question Marks, but the Little Blind\""
+				},
+				"7": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Sara Doe",
+					"description": "\"Wild Question Marks, but the Little Blind\""
+				}
+			}
+		},
+		"team-5-preview": "team-5"
+	},
+	"/team-6": {
+		"team": {
+			"title": "Team",
+			"members": {
+				"0": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "John Smith",
+					"title": "Position",
+					"description": "Separated they live in Bookmarksgrove right at the coast of the Semantics."
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "John Smith",
+					"title": "Position",
+					"description": "One morning, when Gregor Samsa woke from troubled dreams."
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/colors_wide_1.jpg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "John Smith",
+					"title": "Position",
+					"description": "A small river named Duden flows by their place and supplies it."
+				}
+			}
+		},
+		"team-6-preview": "team-6"
+	},
+	"/team-7": {
+		"team": {
+			"title": "Team",
+			"members": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Employee Name",
+					"title": "Position"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Employee Name",
+					"title": "Position"
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Employee Name",
+					"title": "Position"
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Employee Name",
+					"title": "Position"
+				},
+				"4": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Employee Name",
+					"title": "Position"
+				},
+				"5": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Employee Name",
+					"title": "Position"
+				},
+				"6": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Employee Name",
+					"title": "Position"
+				},
+				"7": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Employee Name",
+					"title": "Position"
+				},
+				"8": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Employee Name",
+					"title": "Position"
+				}
+			}
+		},
+		"team-7-preview": "team-7"
+	},
+	"/team-8": {
+		"team": {
+			"title": "Our Amazing Team",
+			"description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+			"members": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Employee Name",
+					"title": "Position",
+					"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Employee Name",
+					"title": "Position",
+					"description": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Employee Name",
+					"title": "Position",
+					"description": "One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar."
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Employee Name",
+					"title": "Position",
+					"description": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life."
+				}
+			}
+		},
+		"team-8-preview": "team-8"
+	},
+	"/testimonial-1": {
+		"testimonial": {
+			"testimonials": {
+				"0": {
+					"quote": "\n                  \"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.\"\n                ",
+					"name": "Person Name",
+					"title": "Co-founder at Company",
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					}
+				}
+			}
+		},
+		"testimonial-1-preview": "testimonial-1"
+	},
+	"/testimonial-2": {
+		"testimonial": {
+			"testimonials": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"quote": "\n                    \"Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.\"\n                  ",
+					"name": "Person Name",
+					"title": "Co-founder at Company"
+				}
+			}
+		},
+		"testimonial-2-preview": "testimonial-2"
+	},
+	"/testimonial-3": {
+		"testimonial": {
+			"title": "You are in good company",
+			"testimonials": {
+				"0": {
+					"image": {
+						"src": "/imgs/customers/adobe.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/customers/discovery.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/customers/ebay.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/customers/samsung.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"4": {
+					"image": {
+						"src": "/imgs/customers/orange.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"5": {
+					"image": {
+						"src": "/imgs/customers/salesforce.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"6": {
+					"image": {
+						"src": "/imgs/customers/cisco.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"7": {
+					"image": {
+						"src": "/imgs/customers/apple.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"8": {
+					"image": {
+						"src": "/imgs/customers/ibm.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"9": {
+					"image": {
+						"src": "/imgs/customers/intel.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"10": {
+					"image": {
+						"src": "/imgs/customers/panasonic.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				}
+			}
+		},
+		"testimonial-3-preview": "testimonial-3"
+	},
+	"/testimonial-4": {
+		"testimonial": {
+			"testimonials": {
+				"0": {
+					"quote": "\"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.\"",
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"alt": "image"
+					},
+					"name": "Person Name"
+				},
+				"1": {
+					"quote": "\"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.\"",
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"alt": "image"
+					},
+					"name": "Person Name"
+				}
+			}
+		},
+		"testimonial-4-preview": "testimonial-4"
+	},
+	"/testimonial-5": {
+		"testimonial": {
+			"testimonials": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"quote": "\n                        \"Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.\"\n                      ",
+					"name": "Person Name",
+					"title": "Co-founder at Company"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"quote": "\n                        \"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.\"\n                      ",
+					"name": "Person Name",
+					"title": "Co-founder at Company"
+				}
+			}
+		},
+		"testimonial-5-preview": "testimonial-5"
+	},
+	"/testimonial-6": {
+		"testimonial": {
+			"title": "You are in good company",
+			"description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. ",
+			"testimonials": {
+				"0": {
+					"image": {
+						"src": "/imgs/customers/adobe.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/customers/discovery.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/customers/ebay.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/customers/samsung.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"4": {
+					"image": {
+						"src": "/imgs/customers/orange.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"5": {
+					"image": {
+						"src": "/imgs/customers/salesforce.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				}
+			}
+		},
+		"testimonial-6-preview": "testimonial-6"
+	},
+	"/testimonial-7": {
+		"testimonial": {
+			"testimonials": {
+				"0": {
+					"image": {
+						"src": "/imgs/customers/adobe.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/customers/discovery.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/customers/ebay.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"3": {
+					"image": {
+						"src": "/imgs/customers/samsung.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"4": {
+					"image": {
+						"src": "/imgs/customers/orange.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				},
+				"5": {
+					"image": {
+						"src": "/imgs/customers/salesforce.svg",
+						"class": "ml-3 mr-3 mb-2 mt-2",
+						"alt": "image"
+					}
+				}
+			}
+		},
+		"testimonial-7-preview": "testimonial-7"
+	},
+	"/testimonial-8": {
+		"testimonial": {
+			"title": "Testimonials",
+			"testimonials": {
+				"0": {
+					"image": {
+						"src": "/imgs/customers/intel.svg",
+						"alt": "image"
+					},
+					"quote": "\"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.\"",
+					"name": "Person Name",
+					"title": "Co-founder at Company"
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/customers/apple.svg",
+						"alt": "image"
+					},
+					"quote": "\"Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.\"",
+					"name": "Person Name",
+					"title": "Co-founder at Company"
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/customers/samsung.svg",
+						"alt": "image"
+					},
+					"quote": "\"A small river named Duden flows by their place and supplies it with the necessary regelialia.\"",
+					"name": "Person Name",
+					"title": "Co-founder at Company"
+				}
+			}
+		},
+		"testimonial-8-preview": "testimonial-8"
+	},
+	"/testimonial-9": {
+		"testimonial": {
+			"title": "Testimonials",
+			"description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. Separated they live in Bookmarksgrove right at the coast of the Semantics.",
+			"testimonials": {
+				"0": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Person Name",
+					"title": "Co-founder at Company",
+					"quote": "\n                        \"Even the all-powerful Pointing has no control about the blind texts it is an unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.\"\n                      "
+				},
+				"1": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Person Name",
+					"title": "Co-founder at Company",
+					"quote": "\n                        \"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.\"\n                      "
+				},
+				"2": {
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"class": "img-fluid",
+						"alt": "image"
+					},
+					"name": "Person Name",
+					"title": "Co-founder at Company",
+					"quote": "\n                        \"Separated they live in Bookmarksgrove right at the coast of the Semantics, far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.\"\n                      "
+				}
+			}
+		},
+		"testimonial-9-preview": "testimonial-9"
+	},
+	"/testimonial-10": {
+		"testimonial": {
+			"title": "Testimonials",
+			"testimonials": {
+				"0": {
+					"quote": "\"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.\"",
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"alt": "image"
+					},
+					"name": "Person Name",
+					"title": "Co-founder, Company"
+				},
+				"1": {
+					"quote": "\"Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.\"",
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"alt": "image"
+					},
+					"name": "Person Name",
+					"title": "Co-founder, Company"
+				},
+				"2": {
+					"quote": "\"A small river named Duden flows by their place and supplies it with the necessary regelialia.\"",
+					"image": {
+						"src": "/imgs/img_round.svg",
+						"alt": "image"
+					},
+					"name": "Person Name",
+					"title": "Co-founder, Company"
+				}
+			}
+		},
+		"testimonial-10-preview": "testimonial-10"
 	}
 }
