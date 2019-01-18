@@ -4,11 +4,16 @@
 		"header": {
 			"link": {
 				"href": "#",
-				"class": "ml-auto mr-auto"
+				"class": "ml-auto mr-auto",
+				"alt": null,
+				"title": null,
+				"name": null
 			},
 			"image": {
 				"src": "/imgs/Logo_SimplyEdit.svg",
-				"alt": "image"
+				"alt": "image",
+				"class": null,
+				"title": null
 			},
 			"action": {
 				"href": "#",
@@ -24,7 +29,10 @@
 					"link": {
 						"href": "#",
 						"class": "nav-link",
-						"innerHTML": "Privacy"
+						"innerHTML": "Privacy",
+						"alt": null,
+						"title": null,
+						"name": null
 					},
 					"image": {
 						"src": "/imgs/Logo_SimplyEdit.svg",
@@ -35,28 +43,40 @@
 					"link": {
 						"href": "#",
 						"class": "nav-link",
-						"innerHTML": "Terms"
+						"innerHTML": "Terms",
+						"alt": null,
+						"title": null,
+						"name": null
 					}
 				},
 				"2": {
 					"link": {
 						"href": "#",
 						"class": "nav-link",
-						"innerHTML": "About"
+						"innerHTML": "About",
+						"alt": null,
+						"title": null,
+						"name": null
 					}
 				},
 				"3": {
 					"link": {
 						"href": "#",
 						"class": "nav-link",
-						"innerHTML": "About"
+						"innerHTML": "About",
+						"alt": null,
+						"title": null,
+						"name": null
 					}
 				},
 				"4": {
 					"link": {
 						"href": "#",
 						"class": "nav-link",
-						"innerHTML": "About"
+						"innerHTML": "About",
+						"alt": null,
+						"title": null,
+						"name": null
 					}
 				}
 			},
@@ -160,7 +180,10 @@
 					"link": {
 						"href": "#simply-edit",
 						"class": "btn",
-						"innerHTML": "Edit this site"
+						"innerHTML": "Edit this site",
+						"alt": null,
+						"title": null,
+						"name": null
 					},
 					"actions": {
 						"0": {
@@ -205,14 +228,15 @@
 			},
 			{
 				"team": {
-					"title": "Our Team",
+					"title": "Our Team!",
 					"description": "Far far away, behind the word mountains, far from the countries.",
 					"members": {
 						"0": {
 							"image": {
 								"src": "/imgs/img_square_1.svg",
 								"class": "img-fluid",
-								"alt": "image"
+								"alt": "image",
+								"title": null
 							},
 							"name": "Sara Doe",
 							"title": "Founder"
@@ -221,7 +245,8 @@
 							"image": {
 								"src": "/imgs/img_square_2.svg",
 								"class": "img-fluid",
-								"alt": "image"
+								"alt": "image",
+								"title": null
 							},
 							"name": "Sara Doe",
 							"title": "Founder"
@@ -230,7 +255,8 @@
 							"image": {
 								"src": "/imgs/img_square_3.svg",
 								"class": "img-fluid",
-								"alt": "image"
+								"alt": "image",
+								"title": null
 							},
 							"name": "Sara Doe",
 							"title": "Founder"
@@ -239,7 +265,8 @@
 							"image": {
 								"src": "/imgs/img_square_4.svg",
 								"class": "img-fluid",
-								"alt": "image"
+								"alt": "image",
+								"title": null
 							},
 							"name": "Sara Doe",
 							"title": "Founder"
